@@ -245,5 +245,27 @@ Wire Notes Line width 8
 Wire Notes Line width 8
 	6900 2000 3650 2000
 Text Notes 4450 2000 0    61   ~ 0
-Connector for Raspberry Pi 4 Model B 
+Connector for Raspberry Pi 4 Model B
+$Comp
+L MCU_ST_STM32L0:STM32L062K8Tx U?
+U 1 1 5FE99240
+P 8200 2900
+F 0 "U?" H 8150 1811 50  0000 C CNN
+F 1 "STM32L062K8Tx" H 8150 1720 50  0000 C CNN
+F 2 "Package_QFP:LQFP-32_7x7mm_P0.8mm" H 7700 2000 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108218.pdf" H 8200 2900 50  0001 C CNN
+	1    8200 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L rpi_sensor_hat:FM25V10-G U?
+U 1 1 5FEA3E28
+P 8900 950
+F 0 "U?" H 9175 965 50  0000 C CNN
+F 1 "FM25V10-G" H 9175 874 50  0000 C CNN
+F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm" H 8900 950 50  0001 C CNN
+F 3 "https://www.cypress.com/file/41691/download" H 8900 950 50  0001 C CNN
+	1    8900 950 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

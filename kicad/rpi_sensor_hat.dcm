@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP FM25V10-G
+D FRAM (Ferroelectric RAM) Memory IC 1Mb (128K x 8) SPI 40MHz  8-SOIC
+F https://www.cypress.com/file/41691/download
+$ENDCMP
+#
 $CMP SSW-120-03-G-D
 D Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector

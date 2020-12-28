@@ -48,6 +48,35 @@ X PA3 9 500 400 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+# dk_Humidity-Moisture-Sensors_BME280
+#
+DEF dk_Humidity-Moisture-Sensors_BME280 U 0 40 Y Y 1 F N
+F0 "U" -200 350 60 H V C CNN
+F1 "dk_Humidity-Moisture-Sensors_BME280" -100 450 60 H V R CNN
+F2 "digikey-footprints:Pressure_Sensor_LGA-8_2.5x2.5mm_BME280" 200 200 60 H I L CNN
+F3 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280-DS002.pdf" 200 300 60 H I L CNN
+F4 "828-1063-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "BME280" 200 500 60 H I L CNN "MPN"
+F6 "Sensors, Transducers" 200 600 60 H I L CNN "Category"
+F7 "Humidity, Moisture Sensors" 200 700 60 H I L CNN "Family"
+F8 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280-DS002.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/bosch-sensortec/BME280/828-1063-1-ND/6136314" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "SENSOR PRESSURE HUMIDITY TEMP" 200 1000 60 H I L CNN "Description"
+F11 "Bosch Sensortec" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S 300 300 -300 -200 0 1 0 f
+X GND 1 0 -300 100 U 50 50 1 1 W
+X CSB 2 -400 -100 100 R 50 50 1 1 I
+X SDI 3 -400 100 100 R 50 50 1 1 B
+X SCK 4 -400 200 100 R 50 50 1 1 I
+X SDO 5 -400 0 100 R 50 50 1 1 B
+X VDDIO 6 0 400 100 D 50 50 1 1 W
+X GND 7 100 -300 100 U 50 50 1 1 W
+X VDD 8 100 400 100 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
 # power_+3V3
 #
 DEF power_+3V3 #PWR 0 0 Y Y 1 F P

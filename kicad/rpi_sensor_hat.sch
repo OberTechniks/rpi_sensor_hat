@@ -268,4 +268,24 @@ F 3 "https://www.cypress.com/file/41691/download" H 8900 950 50  0001 C CNN
 	1    8900 950 
 	1    0    0    -1  
 $EndComp
+$Comp
+L dk_Humidity-Moisture-Sensors:BME280 U?
+U 1 1 5FEAAAE6
+P 7750 4700
+F 0 "U?" H 8078 4803 60  0000 L CNN
+F 1 "BME280" H 8078 4697 60  0000 L CNN
+F 2 "rpi_sensor_hat:Pressure_Sensor_LGA-8_2.5x2.5mm_BME280" H 7950 4900 60  0001 L CNN
+F 3 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280-DS002.pdf" H 7950 5000 60  0001 L CNN
+F 4 "828-1063-1-ND" H 7950 5100 60  0001 L CNN "Digi-Key_PN"
+F 5 "BME280" H 7950 5200 60  0001 L CNN "MPN"
+F 6 "Sensors, Transducers" H 7950 5300 60  0001 L CNN "Category"
+F 7 "Humidity, Moisture Sensors" H 7950 5400 60  0001 L CNN "Family"
+F 8 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280-DS002.pdf" H 7950 5500 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/bosch-sensortec/BME280/828-1063-1-ND/6136314" H 7950 5600 60  0001 L CNN "DK_Detail_Page"
+F 10 "SENSOR PRESSURE HUMIDITY TEMP" H 7950 5700 60  0001 L CNN "Description"
+F 11 "Bosch Sensortec" H 7950 5800 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7950 5900 60  0001 L CNN "Status"
+	1    7750 4700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

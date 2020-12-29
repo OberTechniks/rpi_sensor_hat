@@ -16,276 +16,1686 @@ $EndDescr
 $Comp
 L rpi_sensor_hat:SSW-120-03-G-D J1
 U 1 1 5FE5C81D
-P 5200 3400
-F 0 "J1" H 5250 4517 50  0000 C CNN
-F 1 "SSW-120-03-G-D" H 5250 4426 50  0000 C CNN
-F 2 "rpi_sensor_hat:ssw-120-03-g-d" H 5250 4425 50  0001 C CNN
-F 3 "~" H 5200 3400 50  0001 C CNN
-	1    5200 3400
+P 2200 4200
+F 0 "J1" H 2250 5317 50  0000 C CNN
+F 1 "SSW-120-03-G-D" H 2250 5226 50  0000 C CNN
+F 2 "rpi_sensor_hat:ssw-120-03-g-d" H 2250 5225 50  0001 C CNN
+F 3 "~" H 2200 4200 50  0001 C CNN
+	1    2200 4200
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 5FE8334E
-P 4750 4550
-F 0 "#PWR?" H 4750 4300 50  0001 C CNN
-F 1 "GND" H 4755 4377 50  0000 C CNN
-F 2 "" H 4750 4550 50  0001 C CNN
-F 3 "" H 4750 4550 50  0001 C CNN
-	1    4750 4550
+P 1750 5350
+F 0 "#PWR0101" H 1750 5100 50  0001 C CNN
+F 1 "GND" H 1755 5177 50  0000 C CNN
+F 2 "" H 1750 5350 50  0001 C CNN
+F 3 "" H 1750 5350 50  0001 C CNN
+	1    1750 5350
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0102
 U 1 1 5FE85980
-P 5750 4550
-F 0 "#PWR?" H 5750 4300 50  0001 C CNN
-F 1 "GND" H 5755 4377 50  0000 C CNN
-F 2 "" H 5750 4550 50  0001 C CNN
-F 3 "" H 5750 4550 50  0001 C CNN
-	1    5750 4550
+P 2750 5350
+F 0 "#PWR0102" H 2750 5100 50  0001 C CNN
+F 1 "GND" H 2755 5177 50  0000 C CNN
+F 2 "" H 2750 5350 50  0001 C CNN
+F 3 "" H 2750 5350 50  0001 C CNN
+	1    2750 5350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5000 4400 4750 4400
+	2000 5200 1750 5200
 Wire Wire Line
-	4750 4400 4750 4550
+	1750 5200 1750 5350
 Wire Wire Line
-	5000 3700 4750 3700
+	2000 4500 1750 4500
 Wire Wire Line
-	4750 3700 4750 4400
-Connection ~ 4750 4400
+	1750 4500 1750 5200
+Connection ~ 1750 5200
 Wire Wire Line
-	5000 2900 4750 2900
+	2000 3700 1750 3700
 Wire Wire Line
-	4750 2900 4750 3700
-Connection ~ 4750 3700
+	1750 3700 1750 4500
+Connection ~ 1750 4500
 Wire Wire Line
-	5500 4100 5750 4100
+	2500 4900 2750 4900
 Wire Wire Line
-	5750 4100 5750 4550
+	2750 4900 2750 5350
 Wire Wire Line
-	5500 3900 5750 3900
+	2500 4700 2750 4700
 Wire Wire Line
-	5750 3900 5750 4100
-Connection ~ 5750 4100
+	2750 4700 2750 4900
+Connection ~ 2750 4900
 Wire Wire Line
-	5500 3400 5750 3400
+	2500 4200 2750 4200
 Wire Wire Line
-	5750 3400 5750 3900
-Connection ~ 5750 3900
+	2750 4200 2750 4700
+Connection ~ 2750 4700
 Wire Wire Line
-	5500 3100 5750 3100
+	2500 3900 2750 3900
 Wire Wire Line
-	5750 3100 5750 3400
-Connection ~ 5750 3400
+	2750 3900 2750 4200
+Connection ~ 2750 4200
 Wire Wire Line
-	5500 2700 5750 2700
+	2500 3500 2750 3500
 Wire Wire Line
-	5750 2700 5750 3100
-Connection ~ 5750 3100
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5FE89682
-P 4600 2350
-F 0 "#PWR?" H 4600 2200 50  0001 C CNN
-F 1 "+3V3" H 4615 2523 50  0000 C CNN
-F 2 "" H 4600 2350 50  0001 C CNN
-F 3 "" H 4600 2350 50  0001 C CNN
-	1    4600 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5FE8B282
-P 5900 2350
-F 0 "#PWR?" H 5900 2200 50  0001 C CNN
-F 1 "+5V" H 5915 2523 50  0000 C CNN
-F 2 "" H 5900 2350 50  0001 C CNN
-F 3 "" H 5900 2350 50  0001 C CNN
-	1    5900 2350
-	1    0    0    -1  
-$EndComp
+	2750 3500 2750 3900
+Connection ~ 2750 3900
 Wire Wire Line
-	4600 2500 4600 2350
+	1600 3300 1600 3150
 Wire Wire Line
-	4600 2500 5000 2500
+	1600 3300 2000 3300
 Wire Wire Line
-	5500 2500 5900 2500
+	2000 4100 1600 4100
 Wire Wire Line
-	5900 2500 5900 2350
-Wire Wire Line
-	5000 3300 4600 3300
-Wire Wire Line
-	4600 3300 4600 2500
-Connection ~ 4600 2500
-Wire Wire Line
-	5500 2600 5900 2600
-Wire Wire Line
-	5900 2600 5900 2500
-Connection ~ 5900 2500
-Text Label 4000 2600 0    50   ~ 0
+	1600 4100 1600 3300
+Connection ~ 1600 3300
+Text Label 1000 3400 0    50   ~ 0
 GPIO2_SDA
-Text Label 4000 2700 0    50   ~ 0
+Text Label 1000 3500 0    50   ~ 0
 GPIO3_SCL
 Wire Wire Line
-	4000 2600 5000 2600
+	1000 3400 2000 3400
 Wire Wire Line
-	4000 2700 5000 2700
-Text Label 4000 2800 0    50   ~ 0
+	1000 3500 2000 3500
+Text Label 1000 3600 0    50   ~ 0
 GPIO4_GPCLK0
 Wire Wire Line
-	5000 2800 4000 2800
-Text Label 4000 3000 0    50   ~ 0
+	2000 3600 1000 3600
+Text Label 1000 3800 0    50   ~ 0
 GPIO17
 Wire Wire Line
-	5000 3000 4000 3000
-Text Label 4000 3100 0    50   ~ 0
+	2000 3800 1000 3800
+Text Label 1000 3900 0    50   ~ 0
 GPIO27
 Wire Wire Line
-	5000 3100 4000 3100
-Text Label 4000 3200 0    50   ~ 0
+	2000 3900 1000 3900
+Text Label 1000 4000 0    50   ~ 0
 GPIO22
 Wire Wire Line
-	5000 3200 4000 3200
-Text Label 4000 3400 0    50   ~ 0
+	2000 4000 1000 4000
+Text Label 1000 4200 0    50   ~ 0
 GPIO10_MOSI
 Wire Wire Line
-	5000 3400 4000 3400
-Text Label 4000 3500 0    50   ~ 0
+	2000 4200 1000 4200
+Text Label 1000 4300 0    50   ~ 0
 GPIO9_MISO
 Wire Wire Line
-	5000 3500 4000 3500
-Text Label 4000 3600 0    50   ~ 0
+	2000 4300 1000 4300
+Text Label 1000 4400 0    50   ~ 0
 GPIO11_SCLK
 Wire Wire Line
-	5000 3600 4000 3600
-Text Label 4000 3800 0    50   ~ 0
+	2000 4400 1000 4400
+Text Label 1000 4600 0    50   ~ 0
 GPIO0_ID_SD
 Wire Wire Line
-	5000 3800 4000 3800
-Text Label 4000 3900 0    50   ~ 0
+	2000 4600 1000 4600
+Text Label 1000 4700 0    50   ~ 0
 GPIO5
 Wire Wire Line
-	5000 3900 4000 3900
-Text Label 4000 4000 0    50   ~ 0
+	2000 4700 1000 4700
+Text Label 1000 4800 0    50   ~ 0
 GPIO6
 Wire Wire Line
-	5000 4000 4000 4000
-Text Label 4000 4100 0    50   ~ 0
+	2000 4800 1000 4800
+Text Label 1000 4900 0    50   ~ 0
 GPIO13_PWM1
 Wire Wire Line
-	5000 4100 4000 4100
-Text Label 4000 4200 0    50   ~ 0
+	2000 4900 1000 4900
+Text Label 1000 5000 0    50   ~ 0
 GPIO19_PCM_FS
 Wire Wire Line
-	5000 4200 4000 4200
-Text Label 4000 4300 0    50   ~ 0
+	2000 5000 1000 5000
+Text Label 1000 5100 0    50   ~ 0
 GPIO26
 Wire Wire Line
-	5000 4300 4000 4300
-Text Label 6000 2800 0    50   ~ 0
+	2000 5100 1000 5100
+Text Label 3000 3600 0    50   ~ 0
 GPIO14_TXD
 Wire Wire Line
-	5500 2800 6000 2800
-Text Label 6000 2900 0    50   ~ 0
+	2500 3600 3000 3600
+Text Label 3000 3700 0    50   ~ 0
 GPIO15_RXD
 Wire Wire Line
-	5500 2900 6000 2900
-Text Label 6000 3000 0    50   ~ 0
+	2500 3700 3000 3700
+Text Label 3000 3800 0    50   ~ 0
 GPIO18_PCM_CLK
 Wire Wire Line
-	5500 3000 6000 3000
-Text Label 6000 3200 0    50   ~ 0
+	2500 3800 3000 3800
+Text Label 3000 4000 0    50   ~ 0
 GPIO23
 Wire Wire Line
-	5500 3200 6000 3200
-Text Label 6000 3300 0    50   ~ 0
+	2500 4000 3000 4000
+Text Label 3000 4100 0    50   ~ 0
 GPIO24
 Wire Wire Line
-	5500 3300 6000 3300
-Text Label 6000 3500 0    50   ~ 0
+	2500 4100 3000 4100
+Text Label 3000 4300 0    50   ~ 0
 GPIO25
 Wire Wire Line
-	5500 3500 6000 3500
-Text Label 6000 3600 0    50   ~ 0
+	2500 4300 3000 4300
+Text Label 3000 4400 0    50   ~ 0
 GPIO8_CE0
 Wire Wire Line
-	5500 3600 6000 3600
-Text Label 6000 3700 0    50   ~ 0
+	2500 4400 3000 4400
+Text Label 3000 4500 0    50   ~ 0
 GPIO7_CE1
 Wire Wire Line
-	5500 3700 6000 3700
-Text Label 6000 3800 0    50   ~ 0
+	2500 4500 3000 4500
+Text Label 3000 4600 0    50   ~ 0
 GPIO1_ID_SC
 Wire Wire Line
-	5500 3800 6000 3800
-Text Label 6000 4000 0    50   ~ 0
+	2500 4600 3000 4600
+Text Label 3000 4800 0    50   ~ 0
 GPIO12_PWM0
 Wire Wire Line
-	5500 4000 6000 4000
-Text Label 6000 4200 0    50   ~ 0
+	2500 4800 3000 4800
+Text Label 3000 5000 0    50   ~ 0
 GPIO16
 Wire Wire Line
-	5500 4200 6000 4200
-Text Label 6000 4300 0    50   ~ 0
+	2500 5000 3000 5000
+Text Label 3000 5100 0    50   ~ 0
 GPIO20_PCM_DIN
 Wire Wire Line
-	5500 4300 6000 4300
-Text Label 6000 4400 0    50   ~ 0
+	2500 5100 3000 5100
+Text Label 3000 5200 0    50   ~ 0
 GPIO21_PCM_DOUT
 Wire Wire Line
-	5500 4400 6000 4400
-Wire Notes Line width 8
-	3650 2000 3650 4950
-Wire Notes Line width 8
-	3650 4950 6900 4950
-Wire Notes Line width 8
-	6900 4950 6900 2000
-Wire Notes Line width 8
-	6900 2000 3650 2000
-Text Notes 4450 2000 0    61   ~ 0
+	2500 5200 3000 5200
+Wire Notes Line
+	650  2800 650  5750
+Wire Notes Line
+	650  5750 3900 5750
+Wire Notes Line
+	3900 5750 3900 2800
+Wire Notes Line
+	3900 2800 650  2800
+Text Notes 1450 2800 0    61   ~ 0
 Connector for Raspberry Pi 4 Model B
 $Comp
-L MCU_ST_STM32L0:STM32L062K8Tx U?
-U 1 1 5FE99240
-P 8200 2900
-F 0 "U?" H 8150 1811 50  0000 C CNN
-F 1 "STM32L062K8Tx" H 8150 1720 50  0000 C CNN
-F 2 "Package_QFP:LQFP-32_7x7mm_P0.8mm" H 7700 2000 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108218.pdf" H 8200 2900 50  0001 C CNN
-	1    8200 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L rpi_sensor_hat:FM25V10-G U?
+L rpi_sensor_hat:FM25V10-G U3
 U 1 1 5FEA3E28
-P 8900 950
-F 0 "U?" H 9175 965 50  0000 C CNN
-F 1 "FM25V10-G" H 9175 874 50  0000 C CNN
-F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm" H 8900 950 50  0001 C CNN
-F 3 "https://www.cypress.com/file/41691/download" H 8900 950 50  0001 C CNN
-	1    8900 950 
+P 8900 5750
+F 0 "U3" H 9175 5765 50  0000 C CNN
+F 1 "FM25V10-G" H 9175 5674 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8900 5750 50  0001 C CNN
+F 3 "https://www.cypress.com/file/41691/download" H 8900 5750 50  0001 C CNN
+	1    8900 5750
 	1    0    0    -1  
 $EndComp
 $Comp
-L dk_Humidity-Moisture-Sensors:BME280 U?
+L dk_Humidity-Moisture-Sensors:BME280 U1
 U 1 1 5FEAAAE6
-P 7750 4700
-F 0 "U?" H 8078 4803 60  0000 L CNN
-F 1 "BME280" H 8078 4697 60  0000 L CNN
-F 2 "rpi_sensor_hat:Pressure_Sensor_LGA-8_2.5x2.5mm_BME280" H 7950 4900 60  0001 L CNN
-F 3 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280-DS002.pdf" H 7950 5000 60  0001 L CNN
-F 4 "828-1063-1-ND" H 7950 5100 60  0001 L CNN "Digi-Key_PN"
-F 5 "BME280" H 7950 5200 60  0001 L CNN "MPN"
-F 6 "Sensors, Transducers" H 7950 5300 60  0001 L CNN "Category"
-F 7 "Humidity, Moisture Sensors" H 7950 5400 60  0001 L CNN "Family"
-F 8 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280-DS002.pdf" H 7950 5500 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/bosch-sensortec/BME280/828-1063-1-ND/6136314" H 7950 5600 60  0001 L CNN "DK_Detail_Page"
-F 10 "SENSOR PRESSURE HUMIDITY TEMP" H 7950 5700 60  0001 L CNN "Description"
-F 11 "Bosch Sensortec" H 7950 5800 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 7950 5900 60  0001 L CNN "Status"
-	1    7750 4700
+P 6750 6000
+F 0 "U1" H 7078 6103 60  0000 L CNN
+F 1 "BME280" H 7078 5997 60  0000 L CNN
+F 2 "rpi_sensor_hat:Pressure_Sensor_LGA-8_2.5x2.5mm_BME280" H 6950 6200 60  0001 L CNN
+F 3 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280-DS002.pdf" H 6950 6300 60  0001 L CNN
+F 4 "828-1063-1-ND" H 6950 6400 60  0001 L CNN "Digi-Key_PN"
+F 5 "BME280" H 6950 6500 60  0001 L CNN "MPN"
+F 6 "Sensors, Transducers" H 6950 6600 60  0001 L CNN "Category"
+F 7 "Humidity, Moisture Sensors" H 6950 6700 60  0001 L CNN "Family"
+F 8 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280-DS002.pdf" H 6950 6800 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/bosch-sensortec/BME280/828-1063-1-ND/6136314" H 6950 6900 60  0001 L CNN "DK_Detail_Page"
+F 10 "SENSOR PRESSURE HUMIDITY TEMP" H 6950 7000 60  0001 L CNN "Description"
+F 11 "Bosch Sensortec" H 6950 7100 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6950 7200 60  0001 L CNN "Status"
+	1    6750 6000
 	1    0    0    -1  
 $EndComp
+$Comp
+L dk_Battery-Holders-Clips-Contacts:BS-7 BAT1
+U 1 1 5FEB25D9
+P 2150 1150
+F 0 "BAT1" H 2278 1203 60  0000 L CNN
+F 1 "BS-7" H 2278 1097 60  0000 L CNN
+F 2 "rpi_sensor_hat:Battery_Holder_Coin_2032_BS-7" H 2350 1350 60  0001 L CNN
+F 3 "http://www.memoryprotectiondevices.com/datasheets/BS-7-datasheet.pdf" V 2350 1450 60  0001 L CNN
+F 4 "BS-7-ND" H 2350 1550 60  0001 L CNN "Digi-Key_PN"
+F 5 "BS-7" H 2350 1650 60  0001 L CNN "MPN"
+F 6 "Battery Products" H 2350 1750 60  0001 L CNN "Category"
+F 7 "Battery Holders, Clips, Contacts" H 2350 1850 60  0001 L CNN "Family"
+F 8 "http://www.memoryprotectiondevices.com/datasheets/BS-7-datasheet.pdf" H 2350 1950 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/mpd-memory-protection-devices/BS-7/BS-7-ND/389447" H 2350 2050 60  0001 L CNN "DK_Detail_Page"
+F 10 "BATTERY HOLDER COIN 20MM PC PIN" H 2350 2150 60  0001 L CNN "Description"
+F 11 "MPD (Memory Protection Devices)" H 2350 2250 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 2350 2350 60  0001 L CNN "Status"
+	1    2150 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Diodes-Rectifiers-Single:MBR0520LT1G D1
+U 1 1 5FEB9BBB
+P 1250 1700
+F 0 "D1" H 1250 1962 60  0000 C CNN
+F 1 "MBR0520LT1G" H 1250 1856 60  0000 C CNN
+F 2 "rpi_sensor_hat:SOD-123" H 1450 1900 60  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/MBR0520LT1-D.PDF" H 1450 2000 60  0001 L CNN
+F 4 "MBR0520LT1GOSCT-ND" H 1450 2100 60  0001 L CNN "Digi-Key_PN"
+F 5 "MBR0520LT1G" H 1450 2200 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 1450 2300 60  0001 L CNN "Category"
+F 7 "Diodes - Rectifiers - Single" H 1450 2400 60  0001 L CNN "Family"
+F 8 "http://www.onsemi.com/pub/Collateral/MBR0520LT1-D.PDF" H 1450 2500 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/MBR0520LT1G/MBR0520LT1GOSCT-ND/917965" H 1450 2600 60  0001 L CNN "DK_Detail_Page"
+F 10 "DIODE SCHOTTKY 20V 500MA SOD123" H 1450 2700 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 1450 2800 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 1450 2900 60  0001 L CNN "Status"
+	1    1250 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BSS84 Q1
+U 1 1 5FEBB9BB
+P 1550 1150
+F 0 "Q1" H 1754 1196 50  0000 L CNN
+F 1 "BSS84" H 1754 1105 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 1750 1075 50  0001 L CIN
+F 3 "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf" H 1550 1150 50  0001 L CNN
+F 4 "BSS84-7-F" H 1550 1150 50  0001 C CNN "MPN"
+	1    1550 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5FEBEEFA
+P 900 2000
+F 0 "R1" H 970 2046 50  0000 L CNN
+F 1 "100K" H 970 1955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 830 2000 50  0001 C CNN
+F 3 "~" H 900 2000 50  0001 C CNN
+F 4 "RC0805JR-07100KL" H 900 2000 50  0001 C CNN "MPN"
+	1    900  2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R19
+U 1 1 5FEC0172
+P 12600 2000
+F 0 "R19" H 12670 2046 50  0000 L CNN
+F 1 "10K" H 12670 1955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 12530 2000 50  0001 C CNN
+F 3 "~" H 12600 2000 50  0001 C CNN
+F 4 "RC0805JR-0710KL" H 12600 2000 50  0001 C CNN "MPN"
+	1    12600 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5FEC0D86
+P 2500 2000
+F 0 "C1" H 2615 2046 50  0000 L CNN
+F 1 "10uF" H 2615 1955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2538 1850 50  0001 C CNN
+F 3 "~" H 2500 2000 50  0001 C CNN
+F 4 "TMK212BBJ106KG-T" H 2500 2000 50  0001 C CNN "MPN"
+	1    2500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5FEC216B
+P 2900 2000
+F 0 "C2" H 3015 2046 50  0000 L CNN
+F 1 "0.1uF" H 3015 1955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2938 1850 50  0001 C CNN
+F 3 "~" H 2900 2000 50  0001 C CNN
+F 4 "08055C104KAT2A" H 2900 2000 50  0001 C CNN "MPN"
+	1    2900 2000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2500 3400
+$Comp
+L power:+3.3VP #PWR0103
+U 1 1 5FEC5831
+P 1600 3150
+F 0 "#PWR0103" H 1750 3100 50  0001 C CNN
+F 1 "+3.3VP" H 1615 3323 50  0000 C CNN
+F 2 "" H 1600 3150 50  0001 C CNN
+F 3 "" H 1600 3150 50  0001 C CNN
+	1    1600 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3VP #PWR0104
+U 1 1 5FEC6E1B
+P 900 1000
+F 0 "#PWR0104" H 1050 950 50  0001 C CNN
+F 1 "+3.3VP" H 915 1173 50  0000 C CNN
+F 2 "" H 900 1000 50  0001 C CNN
+F 3 "" H 900 1000 50  0001 C CNN
+	1    900  1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5FEE5A0C
+P 2150 1450
+F 0 "#PWR0105" H 2150 1200 50  0001 C CNN
+F 1 "GND" H 2155 1277 50  0000 C CNN
+F 2 "" H 2150 1450 50  0001 C CNN
+F 3 "" H 2150 1450 50  0001 C CNN
+	1    2150 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0106
+U 1 1 5FEE7571
+P 2900 1600
+F 0 "#PWR0106" H 2900 1450 50  0001 C CNN
+F 1 "+3V3" H 2915 1773 50  0000 C CNN
+F 2 "" H 2900 1600 50  0001 C CNN
+F 3 "" H 2900 1600 50  0001 C CNN
+	1    2900 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5FEF1ADD
+P 900 2350
+F 0 "#PWR0107" H 900 2100 50  0001 C CNN
+F 1 "GND" H 905 2177 50  0000 C CNN
+F 2 "" H 900 2350 50  0001 C CNN
+F 3 "" H 900 2350 50  0001 C CNN
+	1    900  2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  1150 1350 1150
+Wire Wire Line
+	1650 1350 1650 1700
+Wire Wire Line
+	1650 1700 1450 1700
+Wire Wire Line
+	1050 1700 900  1700
+Wire Wire Line
+	900  1700 900  1150
+Connection ~ 900  1150
+Wire Wire Line
+	900  1850 900  1700
+Connection ~ 900  1700
+Wire Wire Line
+	900  2150 900  2350
+Wire Wire Line
+	2150 950  2150 850 
+Wire Wire Line
+	2150 850  1650 850 
+Wire Wire Line
+	1650 850  1650 950 
+Wire Wire Line
+	2150 1450 2150 1350
+Wire Wire Line
+	1650 1700 2500 1700
+Wire Wire Line
+	2900 1700 2900 1600
+Connection ~ 1650 1700
+Wire Wire Line
+	2500 1850 2500 1700
+Connection ~ 2500 1700
+Wire Wire Line
+	2500 1700 2900 1700
+Wire Wire Line
+	2900 1850 2900 1750
+Connection ~ 2900 1700
+$Comp
+L power:GND #PWR0108
+U 1 1 5FF0EE4E
+P 2500 2350
+F 0 "#PWR0108" H 2500 2100 50  0001 C CNN
+F 1 "GND" H 2505 2177 50  0000 C CNN
+F 2 "" H 2500 2350 50  0001 C CNN
+F 3 "" H 2500 2350 50  0001 C CNN
+	1    2500 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 2350 2500 2250
+Wire Wire Line
+	2900 2150 2900 2250
+Connection ~ 2500 2250
+Wire Wire Line
+	2500 2250 2500 2150
+Text Notes 1350 650  0    61   ~ 0
+Battery and Power Management
+Wire Notes Line
+	650  650  650  2600
+Wire Notes Line
+	650  2600 3400 2600
+Wire Notes Line
+	3400 2600 3400 650 
+Wire Notes Line
+	3400 650  650  650 
+Text Notes 2300 1350 0    50   ~ 0
+3V CR2032
+$Comp
+L Device:C C10
+U 1 1 5FF279FE
+P 12700 2600
+F 0 "C10" H 12815 2646 50  0000 L CNN
+F 1 "0.1uF" H 12815 2555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 12738 2450 50  0001 C CNN
+F 3 "~" H 12700 2600 50  0001 C CNN
+F 4 "08055C104KAT2A" H 12700 2600 50  0001 C CNN "MPN"
+	1    12700 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 5FF28AFA
+P 11600 2850
+F 0 "R14" H 11670 2896 50  0000 L CNN
+F 1 "100R" H 11670 2805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 11530 2850 50  0001 C CNN
+F 3 "~" H 11600 2850 50  0001 C CNN
+F 4 "RC0805FR-07100RL" H 11600 2850 50  0001 C CNN "MPN"
+	1    11600 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Memory_EEPROM:CAT24C128 U2
+U 1 1 5FF2B638
+P 1400 6900
+F 0 "U2" H 1550 7250 50  0000 C CNN
+F 1 "CAT24C128" H 1700 7150 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1400 6900 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/CAT24C128-D.PDF" H 1400 6900 50  0001 C CNN
+F 4 "CAT24C128WI-GT3" H 1400 6900 50  0001 C CNN "MPN"
+	1    1400 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J2
+U 1 1 5FF34EA5
+P 1750 7450
+F 0 "J2" H 1668 7217 50  0000 C CNN
+F 1 "Conn_01x03" H 1668 7216 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1750 7450 50  0001 C CNN
+F 3 "~" H 1750 7450 50  0001 C CNN
+F 4 "TSW-103-07-F-S" H 1750 7450 50  0001 C CNN "MPN"
+F 5 "SNT-100-BK-T" H 1750 7450 50  0001 C CNN "Mating Part"
+	1    1750 7450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 5FF412BB
+P 11600 5700
+F 0 "R15" H 11670 5746 50  0000 L CNN
+F 1 "100R" H 11670 5655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 11530 5700 50  0001 C CNN
+F 3 "~" H 11600 5700 50  0001 C CNN
+F 4 "RC0805FR-07100RL" H 11600 5700 50  0001 C CNN "MPN"
+	1    11600 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L rpi_sensor_hat:LG_R971-KN-1 D2
+U 1 1 5FF549EB
+P 11600 6150
+F 0 "D2" V 11550 6328 60  0000 L CNN
+F 1 "LG_R971-KN-1" H 11550 6381 60  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 11800 6350 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf" H 11800 6450 60  0001 L CNN
+F 4 "475-1410-1-ND" H 11800 6550 60  0001 L CNN "Digi-Key_PN"
+F 5 "LG R971-KN-1" H 11800 6650 60  0001 L CNN "MPN"
+F 6 "Optoelectronics" H 11800 6750 60  0001 L CNN "Category"
+F 7 "LED Indication - Discrete" H 11800 6850 60  0001 L CNN "Family"
+F 8 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf" H 11800 6950 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/osram-opto-semiconductors-inc/LG-R971-KN-1/475-1410-1-ND/1802598" H 11800 7050 60  0001 L CNN "DK_Detail_Page"
+F 10 "LED GREEN DIFFUSED 0805 SMD" H 11800 7150 60  0001 L CNN "Description"
+F 11 "OSRAM Opto Semiconductors Inc." H 11800 7250 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 11800 7350 60  0001 L CNN "Status"
+	1    11600 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R18
+U 1 1 5FF581BC
+P 12300 3200
+F 0 "R18" V 12093 3200 50  0000 C CNN
+F 1 "100R" V 12184 3200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 12230 3200 50  0001 C CNN
+F 3 "~" H 12300 3200 50  0001 C CNN
+F 4 "RC0805FR-07100RL" H 12300 3200 50  0001 C CNN "MPN"
+	1    12300 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3VP #PWR0109
+U 1 1 5FF6050C
+P 11600 5450
+F 0 "#PWR0109" H 11750 5400 50  0001 C CNN
+F 1 "+3.3VP" H 11615 5623 50  0000 C CNN
+F 2 "" H 11600 5450 50  0001 C CNN
+F 3 "" H 11600 5450 50  0001 C CNN
+	1    11600 5450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2500 3300
+$Comp
+L power:GND #PWR0110
+U 1 1 5FF67B32
+P 11600 6350
+F 0 "#PWR0110" H 11600 6100 50  0001 C CNN
+F 1 "GND" H 11605 6177 50  0000 C CNN
+F 2 "" H 11600 6350 50  0001 C CNN
+F 3 "" H 11600 6350 50  0001 C CNN
+	1    11600 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Test-Points:5016 TP2
+U 1 1 5FF713DA
+P 2250 850
+F 0 "TP2" V 2250 800 50  0000 R CNN
+F 1 "5016" H 2250 750 50  0001 C CNN
+F 2 "digikey-footprints:Test_Point_3.43x1.78mm" H 2450 1050 60  0001 L CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1354" H 2450 1150 60  0001 L CNN
+F 4 "36-5016CT-ND" H 2450 1250 60  0001 L CNN "Digi-Key_PN"
+F 5 "5016" H 2450 1350 60  0001 L CNN "MPN"
+F 6 "Test and Measurement" H 2450 1450 60  0001 L CNN "Category"
+F 7 "Test Points" H 2450 1550 60  0001 L CNN "Family"
+F 8 "http://www.keyelco.com/product-pdf.cfm?p=1354" H 2450 1650 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/keystone-electronics/5016/36-5016CT-ND/278888" H 2450 1750 60  0001 L CNN "DK_Detail_Page"
+F 10 "PC TEST POINT COMPACT" H 2450 1850 60  0001 L CNN "Description"
+F 11 "Keystone Electronics" H 2450 1950 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 2450 2050 60  0001 L CNN "Status"
+	1    2250 850 
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2150 850 
+$Comp
+L dk_Test-Points:5016 TP8
+U 1 1 5FF74F53
+P 3000 1750
+F 0 "TP8" V 3000 1700 50  0000 R CNN
+F 1 "5016" H 3000 1650 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 3200 1950 60  0001 L CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1354" H 3200 2050 60  0001 L CNN
+F 4 "36-5016CT-ND" H 3200 2150 60  0001 L CNN "Digi-Key_PN"
+F 5 "5016" H 3200 2250 60  0001 L CNN "MPN"
+F 6 "Test and Measurement" H 3200 2350 60  0001 L CNN "Category"
+F 7 "Test Points" H 3200 2450 60  0001 L CNN "Family"
+F 8 "http://www.keyelco.com/product-pdf.cfm?p=1354" H 3200 2550 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/keystone-electronics/5016/36-5016CT-ND/278888" H 3200 2650 60  0001 L CNN "DK_Detail_Page"
+F 10 "PC TEST POINT COMPACT" H 3200 2750 60  0001 L CNN "Description"
+F 11 "Keystone Electronics" H 3200 2850 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 3200 2950 60  0001 L CNN "Status"
+	1    3000 1750
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2900 1750
+Wire Wire Line
+	2900 1750 2900 1700
+$Comp
+L Device:C C11
+U 1 1 5FF82E8A
+P 14250 1900
+F 0 "C11" H 14365 1946 50  0000 L CNN
+F 1 "0.1uF" H 14365 1855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 14288 1750 50  0001 C CNN
+F 3 "~" H 14250 1900 50  0001 C CNN
+F 4 "08055C104KAT2A" H 14250 1900 50  0001 C CNN "MPN"
+	1    14250 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3VP #PWR0111
+U 1 1 5FFA6538
+P 1400 6450
+F 0 "#PWR0111" H 1550 6400 50  0001 C CNN
+F 1 "+3.3VP" H 1415 6623 50  0000 C CNN
+F 2 "" H 1400 6450 50  0001 C CNN
+F 3 "" H 1400 6450 50  0001 C CNN
+	1    1400 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 5FFA8D1E
+P 1400 7350
+F 0 "#PWR0112" H 1400 7100 50  0001 C CNN
+F 1 "GND" H 1405 7177 50  0000 C CNN
+F 2 "" H 1400 7350 50  0001 C CNN
+F 3 "" H 1400 7350 50  0001 C CNN
+	1    1400 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 7200 1400 7350
+Wire Wire Line
+	1400 6600 1400 6450
+$Comp
+L power:GND #PWR0113
+U 1 1 5FFAF33F
+P 850 7150
+F 0 "#PWR0113" H 850 6900 50  0001 C CNN
+F 1 "GND" H 855 6977 50  0000 C CNN
+F 2 "" H 850 7150 50  0001 C CNN
+F 3 "" H 850 7150 50  0001 C CNN
+	1    850  7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 7000 850  7000
+Wire Wire Line
+	850  7000 850  7150
+Wire Wire Line
+	1000 6900 850  6900
+Wire Wire Line
+	850  6900 850  7000
+Connection ~ 850  7000
+Wire Wire Line
+	1000 6800 850  6800
+Wire Wire Line
+	850  6800 850  6900
+Connection ~ 850  6900
+$Comp
+L power:GND #PWR0114
+U 1 1 5FFBA020
+P 2100 7700
+F 0 "#PWR0114" H 2100 7450 50  0001 C CNN
+F 1 "GND" H 2105 7527 50  0000 C CNN
+F 2 "" H 2100 7700 50  0001 C CNN
+F 3 "" H 2100 7700 50  0001 C CNN
+	1    2100 7700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 7450 2100 7450
+Wire Wire Line
+	2100 7450 2100 7700
+Wire Wire Line
+	1800 7000 2100 7000
+Wire Wire Line
+	2100 7000 2100 7350
+Wire Wire Line
+	2100 7350 1950 7350
+NoConn ~ 1950 7550
+Text Notes 2150 7600 0    50   ~ 0
+Jumper\nSet 1-2 for Read Only\nSet 2-3 for Write
+$Comp
+L Device:R R2
+U 1 1 5FFC429C
+P 2100 6450
+F 0 "R2" H 2170 6496 50  0000 L CNN
+F 1 "1K" H 2170 6405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2030 6450 50  0001 C CNN
+F 3 "~" H 2100 6450 50  0001 C CNN
+F 4 "RC0805FR-071KL" H 2100 6450 50  0001 C CNN "MPN"
+	1    2100 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5FFC6B52
+P 2400 6450
+F 0 "R3" H 2470 6496 50  0000 L CNN
+F 1 "3.9K" H 2470 6405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2330 6450 50  0001 C CNN
+F 3 "~" H 2400 6450 50  0001 C CNN
+F 4 "RC0805FR-073K9L" H 2400 6450 50  0001 C CNN "MPN"
+	1    2400 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5FFC84C0
+P 2700 6450
+F 0 "R4" H 2770 6496 50  0000 L CNN
+F 1 "3.9K" H 2770 6405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2630 6450 50  0001 C CNN
+F 3 "~" H 2700 6450 50  0001 C CNN
+F 4 "RC0805FR-073K9L" H 2700 6450 50  0001 C CNN "MPN"
+	1    2700 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 7000 2100 6600
+Connection ~ 2100 7000
+$Comp
+L power:+3.3VP #PWR0115
+U 1 1 5FFCDD6A
+P 2100 6150
+F 0 "#PWR0115" H 2250 6100 50  0001 C CNN
+F 1 "+3.3VP" H 2115 6323 50  0000 C CNN
+F 2 "" H 2100 6150 50  0001 C CNN
+F 3 "" H 2100 6150 50  0001 C CNN
+	1    2100 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 6300 2100 6200
+Wire Wire Line
+	1800 6900 2400 6900
+Wire Wire Line
+	2400 6900 2400 6600
+Wire Wire Line
+	1800 6800 2550 6800
+Wire Wire Line
+	2700 6800 2700 6600
+Wire Wire Line
+	2400 6300 2400 6200
+Wire Wire Line
+	2400 6200 2100 6200
+Connection ~ 2100 6200
+Wire Wire Line
+	2100 6200 2100 6150
+Wire Wire Line
+	2700 6300 2700 6200
+Wire Wire Line
+	2700 6200 2400 6200
+Connection ~ 2400 6200
+Text Label 2950 6800 0    50   ~ 0
+GPIO0_ID_SD
+Text Label 2950 6900 0    50   ~ 0
+GPIO1_ID_SC
+Wire Wire Line
+	2950 6900 2850 6900
+Connection ~ 2400 6900
+Wire Wire Line
+	2950 6800 2700 6800
+Connection ~ 2700 6800
+Wire Wire Line
+	2550 7000 2550 6800
+Connection ~ 2550 6800
+Wire Wire Line
+	2550 6800 2700 6800
+Wire Wire Line
+	2850 7000 2850 6900
+Connection ~ 2850 6900
+Wire Wire Line
+	2850 6900 2400 6900
+Text Notes 1850 5900 0    61   ~ 0
+ID EEPROM
+Wire Notes Line
+	650  5900 650  7950
+Wire Notes Line
+	650  7950 3500 7950
+Wire Notes Line
+	3500 7950 3500 5900
+Wire Notes Line
+	3500 5900 650  5900
+Text Label 4650 5900 0    50   ~ 0
+STM32_MOSI
+Text Label 4650 6000 0    50   ~ 0
+STM32_MISO
+Text Label 4650 5800 0    50   ~ 0
+STM32_SCK
+Text Label 4650 6100 0    50   ~ 0
+SENSOR_CS
+$Comp
+L Device:R R10
+U 1 1 6002329C
+P 6200 5550
+F 0 "R10" H 6270 5596 50  0000 L CNN
+F 1 "10K" H 6270 5505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6130 5550 50  0001 C CNN
+F 3 "~" H 6200 5550 50  0001 C CNN
+F 4 "RC0805JR-0710KL" H 6200 5550 50  0001 C CNN "MPN"
+	1    6200 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0116
+U 1 1 60024478
+P 6750 6450
+F 0 "#PWR0116" H 6750 6200 50  0001 C CNN
+F 1 "GND" H 6755 6277 50  0000 C CNN
+F 2 "" H 6750 6450 50  0001 C CNN
+F 3 "" H 6750 6450 50  0001 C CNN
+	1    6750 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 6300 6750 6400
+Wire Wire Line
+	6850 6300 6850 6400
+Wire Wire Line
+	6850 6400 6750 6400
+Connection ~ 6750 6400
+Wire Wire Line
+	6750 6400 6750 6450
+$Comp
+L power:+3V3 #PWR0117
+U 1 1 6002D6D8
+P 6750 5450
+F 0 "#PWR0117" H 6750 5300 50  0001 C CNN
+F 1 "+3V3" H 6765 5623 50  0000 C CNN
+F 2 "" H 6750 5450 50  0001 C CNN
+F 3 "" H 6750 5450 50  0001 C CNN
+	1    6750 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 5600 6750 5500
+Wire Wire Line
+	6850 5600 6850 5500
+Wire Wire Line
+	6850 5500 6750 5500
+Connection ~ 6750 5500
+Wire Wire Line
+	6750 5500 6750 5450
+$Comp
+L power:+3V3 #PWR0118
+U 1 1 600644A2
+P 6200 5300
+F 0 "#PWR0118" H 6200 5150 50  0001 C CNN
+F 1 "+3V3" H 6215 5473 50  0000 C CNN
+F 2 "" H 6200 5300 50  0001 C CNN
+F 3 "" H 6200 5300 50  0001 C CNN
+	1    6200 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 5800 5300 5800
+Wire Wire Line
+	4650 5900 5600 5900
+Wire Wire Line
+	4650 6000 5900 6000
+Wire Wire Line
+	4650 6100 6200 6100
+Connection ~ 5300 5800
+Wire Wire Line
+	5300 5800 6350 5800
+Connection ~ 5600 5900
+Wire Wire Line
+	5600 5900 6350 5900
+Connection ~ 5900 6000
+Wire Wire Line
+	5900 6000 6350 6000
+Wire Wire Line
+	6200 5700 6200 6100
+Connection ~ 6200 6100
+Wire Wire Line
+	6200 6100 6350 6100
+Wire Wire Line
+	6200 5400 6200 5300
+Text Label 7850 6000 0    50   ~ 0
+FRAM_CS
+Text Label 7850 6100 0    50   ~ 0
+STM32_MISO
+Text Label 9950 6300 0    50   ~ 0
+STM32_MOSI
+Text Label 9950 6200 0    50   ~ 0
+STM32_SCK
+$Comp
+L power:GND #PWR0119
+U 1 1 6009A890
+P 8650 6450
+F 0 "#PWR0119" H 8650 6200 50  0001 C CNN
+F 1 "GND" H 8655 6277 50  0000 C CNN
+F 2 "" H 8650 6450 50  0001 C CNN
+F 3 "" H 8650 6450 50  0001 C CNN
+	1    8650 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0120
+U 1 1 6009B127
+P 9700 5850
+F 0 "#PWR0120" H 9700 5700 50  0001 C CNN
+F 1 "+3V3" H 9715 6023 50  0000 C CNN
+F 2 "" H 9700 5850 50  0001 C CNN
+F 3 "" H 9700 5850 50  0001 C CNN
+	1    9700 5850
+	1    0    0    -1  
+$EndComp
+Text Label 7850 6200 0    50   ~ 0
+FRAM_~WP
+Wire Wire Line
+	8800 6300 8650 6300
+Wire Wire Line
+	8650 6300 8650 6450
+Wire Wire Line
+	7850 6100 8800 6100
+Text Label 9950 6100 0    50   ~ 0
+FRAM_~HOLD
+Wire Wire Line
+	9950 6200 9550 6200
+Wire Wire Line
+	9550 6300 9950 6300
+$Comp
+L power:+3V3 #PWR0121
+U 1 1 601130AB
+P 8650 5550
+F 0 "#PWR0121" H 8650 5400 50  0001 C CNN
+F 1 "+3V3" H 8665 5723 50  0000 C CNN
+F 2 "" H 8650 5550 50  0001 C CNN
+F 3 "" H 8650 5550 50  0001 C CNN
+	1    8650 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 6250 5900 6000
+Wire Wire Line
+	5600 6250 5600 5900
+Wire Wire Line
+	5300 6250 5300 5800
+Text Notes 9050 5250 0    61   ~ 0
+FRAM
+Text Notes 5600 4950 0    61   ~ 0
+BME280 Sensor
+Wire Notes Line
+	7750 5250 7750 6700
+Wire Notes Line
+	7750 6700 10450 6700
+Wire Notes Line
+	10450 6700 10450 5250
+Wire Notes Line
+	10450 5250 7750 5250
+Wire Notes Line
+	4550 4950 4550 6700
+Wire Notes Line
+	4550 6700 7450 6700
+Wire Notes Line
+	7450 6700 7450 4950
+Wire Notes Line
+	7450 4950 4550 4950
+$Comp
+L Device:C C4
+U 1 1 6018B6C8
+P 5150 4100
+F 0 "C4" H 5265 4146 50  0000 L CNN
+F 1 "0.1uF" H 5265 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5188 3950 50  0001 C CNN
+F 3 "~" H 5150 4100 50  0001 C CNN
+F 4 "08055C104KAT2A" H 5150 4100 50  0001 C CNN "MPN"
+	1    5150 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 6018C9BD
+P 5600 4100
+F 0 "C5" H 5715 4146 50  0000 L CNN
+F 1 "0.1uF" H 5715 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5638 3950 50  0001 C CNN
+F 3 "~" H 5600 4100 50  0001 C CNN
+F 4 "08055C104KAT2A" H 5600 4100 50  0001 C CNN "MPN"
+	1    5600 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 6018CF5A
+P 6050 4100
+F 0 "C6" H 6165 4146 50  0000 L CNN
+F 1 "0.1uF" H 6165 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6088 3950 50  0001 C CNN
+F 3 "~" H 6050 4100 50  0001 C CNN
+F 4 "08055C104KAT2A" H 6050 4100 50  0001 C CNN "MPN"
+	1    6050 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 6018D86F
+P 4700 4100
+F 0 "C3" H 4815 4146 50  0000 L CNN
+F 1 "0.1uF" H 4815 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4738 3950 50  0001 C CNN
+F 3 "~" H 4700 4100 50  0001 C CNN
+F 4 "08055C104KAT2A" H 4700 4100 50  0001 C CNN "MPN"
+	1    4700 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0122
+U 1 1 60191589
+P 4700 3800
+F 0 "#PWR0122" H 4700 3650 50  0001 C CNN
+F 1 "+3V3" H 4715 3973 50  0000 C CNN
+F 2 "" H 4700 3800 50  0001 C CNN
+F 3 "" H 4700 3800 50  0001 C CNN
+	1    4700 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0123
+U 1 1 6019224D
+P 4700 4400
+F 0 "#PWR0123" H 4700 4150 50  0001 C CNN
+F 1 "GND" H 4705 4227 50  0000 C CNN
+F 2 "" H 4700 4400 50  0001 C CNN
+F 3 "" H 4700 4400 50  0001 C CNN
+	1    4700 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 3950 4700 3850
+Wire Wire Line
+	4700 4400 4700 4350
+Wire Wire Line
+	5150 4250 5150 4350
+Wire Wire Line
+	5150 4350 4700 4350
+Connection ~ 4700 4350
+Wire Wire Line
+	4700 4350 4700 4250
+Wire Wire Line
+	5150 3950 5150 3850
+Wire Wire Line
+	5150 3850 4700 3850
+Connection ~ 4700 3850
+Wire Wire Line
+	4700 3850 4700 3800
+Wire Wire Line
+	5600 3950 5600 3850
+Wire Wire Line
+	5600 3850 5150 3850
+Connection ~ 5150 3850
+Wire Wire Line
+	5600 4250 5600 4350
+Wire Wire Line
+	5600 4350 5150 4350
+Connection ~ 5150 4350
+Wire Wire Line
+	6050 3950 6050 3850
+Wire Wire Line
+	6050 3850 5600 3850
+Connection ~ 5600 3850
+Wire Wire Line
+	6050 4250 6050 4350
+Wire Wire Line
+	6050 4350 5600 4350
+Connection ~ 5600 4350
+$Comp
+L Device:C C7
+U 1 1 601CE5B9
+P 6500 4100
+F 0 "C7" H 6615 4146 50  0000 L CNN
+F 1 "0.1uF" H 6615 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6538 3950 50  0001 C CNN
+F 3 "~" H 6500 4100 50  0001 C CNN
+F 4 "08055C104KAT2A" H 6500 4100 50  0001 C CNN "MPN"
+	1    6500 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 601D05AC
+P 6950 4100
+F 0 "C8" H 7065 4146 50  0000 L CNN
+F 1 "0.1uF" H 7065 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6988 3950 50  0001 C CNN
+F 3 "~" H 6950 4100 50  0001 C CNN
+F 4 "08055C104KAT2A" H 6950 4100 50  0001 C CNN "MPN"
+	1    6950 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C9
+U 1 1 601D0C7B
+P 7400 4100
+F 0 "C9" H 7515 4146 50  0000 L CNN
+F 1 "0.1uF" H 7515 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7438 3950 50  0001 C CNN
+F 3 "~" H 7400 4100 50  0001 C CNN
+F 4 "08055C104KAT2A" H 7400 4100 50  0001 C CNN "MPN"
+	1    7400 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 4250 6500 4350
+Wire Wire Line
+	6500 4350 6050 4350
+Connection ~ 6050 4350
+Wire Wire Line
+	6500 3950 6500 3850
+Wire Wire Line
+	6500 3850 6050 3850
+Connection ~ 6050 3850
+Wire Wire Line
+	6950 3950 6950 3850
+Wire Wire Line
+	6950 3850 6500 3850
+Connection ~ 6500 3850
+Wire Wire Line
+	7400 3950 7400 3850
+Wire Wire Line
+	7400 3850 6950 3850
+Connection ~ 6950 3850
+Wire Wire Line
+	6950 4250 6950 4350
+Wire Wire Line
+	6950 4350 6500 4350
+Connection ~ 6500 4350
+Wire Wire Line
+	7400 4250 7400 4350
+Wire Wire Line
+	7400 4350 6950 4350
+Connection ~ 6950 4350
+Wire Notes Line
+	4550 4700 4550 3550
+Wire Notes Line
+	4550 3550 7750 3550
+Wire Notes Line
+	7750 3550 7750 4700
+Wire Notes Line
+	7750 4700 4550 4700
+Text Notes 5800 3550 0    61   ~ 0
+Decoupling Caps
+$Comp
+L rpi_sensor_hat:STM32L062K8Tx U4
+U 1 1 6023055D
+P 13400 -250
+F 0 "U4" H 12700 700 50  0000 C CNN
+F 1 "STM32L062K8Tx" H 13850 700 50  0000 C CNN
+F 2 "Package_QFP:LQFP-32_7x7mm_P0.8mm" H 12650 -1150 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108218.pdf" H 13400 -250 50  0001 C CNN
+	1    13400 -250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 J3
+U 1 1 6024C871
+P 5550 7350
+F 0 "J3" H 5630 7296 50  0000 L CNN
+F 1 "Conn_01x06" H 5630 7251 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 5550 7350 50  0001 C CNN
+F 3 "~" H 5550 7350 50  0001 C CNN
+F 4 "61300611121" H 5550 7350 50  0001 C CNN "MPN"
+	1    5550 7350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5350 7650
+NoConn ~ 5350 7350
+NoConn ~ 5350 7250
+$Comp
+L power:GND #PWR0124
+U 1 1 6026A6FC
+P 5150 7150
+F 0 "#PWR0124" H 5150 6900 50  0001 C CNN
+F 1 "GND" H 5155 6977 50  0000 C CNN
+F 2 "" H 5150 7150 50  0001 C CNN
+F 3 "" H 5150 7150 50  0001 C CNN
+	1    5150 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 7150 5150 7150
+Text Label 14250 -800 0    50   ~ 0
+USART2TX
+Text Label 14250 -700 0    50   ~ 0
+USART2RX
+Text Label 4250 7550 0    50   ~ 0
+USART2TX
+Text Label 4250 7450 0    50   ~ 0
+USART2RX
+$Comp
+L Device:R R5
+U 1 1 60276BC1
+P 4850 7450
+F 0 "R5" V 4800 7600 50  0000 C CNN
+F 1 "100R" V 4850 7450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4780 7450 50  0001 C CNN
+F 3 "~" H 4850 7450 50  0001 C CNN
+F 4 "RC0805FR-07100RL" H 4850 7450 50  0001 C CNN "MPN"
+	1    4850 7450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4700 7450 4250 7450
+$Comp
+L Device:R R6
+U 1 1 60278459
+P 4850 7550
+F 0 "R6" V 4800 7700 50  0000 C CNN
+F 1 "100R" V 4850 7550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4780 7550 50  0001 C CNN
+F 3 "~" H 4850 7550 50  0001 C CNN
+F 4 "RC0805FR-07100RL" H 4850 7550 50  0001 C CNN "MPN"
+	1    4850 7550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4250 7550 4700 7550
+Wire Wire Line
+	5000 7450 5350 7450
+Wire Wire Line
+	5000 7550 5350 7550
+Wire Wire Line
+	14250 -800 14100 -800
+Wire Wire Line
+	14100 -700 14250 -700
+Text Label 15200 0    0    50   ~ 0
+GPIO14_TXD
+Text Label 15200 -100 0    50   ~ 0
+GPIO15_RXD
+Text Label 11350 550  0    50   ~ 0
+GPIO2_SDA
+Text Label 11350 450  0    50   ~ 0
+GPIO3_SCL
+$Comp
+L Device:R R16
+U 1 1 60320F15
+P 11850 200
+F 0 "R16" H 11900 250 50  0000 L CNN
+F 1 "3.9K" V 11850 100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 11780 200 50  0001 C CNN
+F 3 "~" H 11850 200 50  0001 C CNN
+F 4 "RC0805FR-073K9L" H 11850 200 50  0001 C CNN "MPN"
+F 5 "DNP" H 11850 200 50  0001 C CNN "PLACE"
+	1    11850 200 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R20
+U 1 1 6032B534
+P 14900 -100
+F 0 "R20" V 14950 100 50  0000 C CNN
+F 1 "100R" V 14900 -100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 14830 -100 50  0001 C CNN
+F 3 "~" H 14900 -100 50  0001 C CNN
+F 4 "RC0805FR-07100RL" H 14900 -100 50  0001 C CNN "MPN"
+	1    14900 -100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R21
+U 1 1 6032E264
+P 14900 0
+F 0 "R21" V 14750 200 50  0000 C CNN
+F 1 "100R" V 14900 0   50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 14830 0   50  0001 C CNN
+F 3 "~" H 14900 0   50  0001 C CNN
+F 4 "RC0805FR-07100RL" H 14900 0   50  0001 C CNN "MPN"
+	1    14900 0   
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	15050 -100 15200 -100
+Wire Wire Line
+	15050 0    15200 0   
+$Comp
+L power:+3V3 #PWR0125
+U 1 1 6035E9F3
+P 11850 -50
+F 0 "#PWR0125" H 11850 -200 50  0001 C CNN
+F 1 "+3V3" H 11865 123 50  0000 C CNN
+F 2 "" H 11850 -50 50  0001 C CNN
+F 3 "" H 11850 -50 50  0001 C CNN
+	1    11850 -50 
+	1    0    0    -1  
+$EndComp
+Text Notes 12250 300  0    50   ~ 10
+DNP
+Text Notes 11900 300  0    50   ~ 10
+DNP
+$Comp
+L Device:R R17
+U 1 1 6036582C
+P 12200 200
+F 0 "R17" H 12250 250 50  0000 L CNN
+F 1 "3.9K" V 12200 100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 12130 200 50  0001 C CNN
+F 3 "~" H 12200 200 50  0001 C CNN
+F 4 "RC0805FR-073K9L" H 12200 200 50  0001 C CNN "MPN"
+F 5 "DNP" H 12200 200 50  0001 C CNN "PLACE"
+	1    12200 200 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12550 450  12200 450 
+Wire Wire Line
+	12200 450  12200 350 
+Wire Wire Line
+	12550 550  11850 550 
+Wire Wire Line
+	11850 550  11850 350 
+Wire Wire Line
+	12200 450  11350 450 
+Connection ~ 12200 450 
+Wire Wire Line
+	11350 550  11850 550 
+Connection ~ 11850 550 
+Wire Wire Line
+	11850 50   11850 0   
+Wire Wire Line
+	12200 50   12200 0   
+Wire Wire Line
+	12200 0    11850 0   
+Connection ~ 11850 0   
+Wire Wire Line
+	11850 0    11850 -50 
+$Comp
+L power:GND #PWR0126
+U 1 1 603A74EF
+P 13300 900
+F 0 "#PWR0126" H 13300 650 50  0001 C CNN
+F 1 "GND" H 13305 727 50  0000 C CNN
+F 2 "" H 13300 900 50  0001 C CNN
+F 3 "" H 13300 900 50  0001 C CNN
+	1    13300 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13300 750  13300 850 
+Wire Wire Line
+	13400 750  13400 850 
+Wire Wire Line
+	13400 850  13300 850 
+Connection ~ 13300 850 
+Wire Wire Line
+	13300 850  13300 900 
+$Comp
+L power:+3V3 #PWR0127
+U 1 1 603BEB21
+P 13300 -1400
+F 0 "#PWR0127" H 13300 -1550 50  0001 C CNN
+F 1 "+3V3" H 13315 -1227 50  0000 C CNN
+F 2 "" H 13300 -1400 50  0001 C CNN
+F 3 "" H 13300 -1400 50  0001 C CNN
+	1    13300 -1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13300 -1250 13300 -1350
+Wire Wire Line
+	13400 -1250 13400 -1350
+Wire Wire Line
+	13400 -1350 13300 -1350
+Connection ~ 13300 -1350
+Wire Wire Line
+	13300 -1350 13300 -1400
+Wire Wire Line
+	13500 -1250 13500 -1350
+Wire Wire Line
+	13500 -1350 13400 -1350
+Connection ~ 13400 -1350
+NoConn ~ 12550 -350
+NoConn ~ 12550 -250
+Wire Wire Line
+	900  1000 900  1050
+Wire Wire Line
+	2500 2250 2600 2250
+$Comp
+L dk_Test-Points:5016 TP4
+U 1 1 604083E4
+P 2600 2350
+F 0 "TP4" H 2650 2397 50  0000 L CNN
+F 1 "5016" H 2600 2250 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 2800 2550 60  0001 L CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1354" H 2800 2650 60  0001 L CNN
+F 4 "36-5016CT-ND" H 2800 2750 60  0001 L CNN "Digi-Key_PN"
+F 5 "5016" H 2800 2850 60  0001 L CNN "MPN"
+F 6 "Test and Measurement" H 2800 2950 60  0001 L CNN "Category"
+F 7 "Test Points" H 2800 3050 60  0001 L CNN "Family"
+F 8 "http://www.keyelco.com/product-pdf.cfm?p=1354" H 2800 3150 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/keystone-electronics/5016/36-5016CT-ND/278888" H 2800 3250 60  0001 L CNN "DK_Detail_Page"
+F 10 "PC TEST POINT COMPACT" H 2800 3350 60  0001 L CNN "Description"
+F 11 "Keystone Electronics" H 2800 3450 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 2800 3550 60  0001 L CNN "Status"
+	1    2600 2350
+	1    0    0    -1  
+$EndComp
+Connection ~ 2600 2250
+Wire Wire Line
+	2600 2250 2850 2250
+$Comp
+L dk_Test-Points:5016 TP5
+U 1 1 6040A457
+P 2850 2350
+F 0 "TP5" H 2900 2397 50  0000 L CNN
+F 1 "5016" H 2850 2250 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 3050 2550 60  0001 L CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1354" H 3050 2650 60  0001 L CNN
+F 4 "36-5016CT-ND" H 3050 2750 60  0001 L CNN "Digi-Key_PN"
+F 5 "5016" H 3050 2850 60  0001 L CNN "MPN"
+F 6 "Test and Measurement" H 3050 2950 60  0001 L CNN "Category"
+F 7 "Test Points" H 3050 3050 60  0001 L CNN "Family"
+F 8 "http://www.keyelco.com/product-pdf.cfm?p=1354" H 3050 3150 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/keystone-electronics/5016/36-5016CT-ND/278888" H 3050 3250 60  0001 L CNN "DK_Detail_Page"
+F 10 "PC TEST POINT COMPACT" H 3050 3350 60  0001 L CNN "Description"
+F 11 "Keystone Electronics" H 3050 3450 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 3050 3550 60  0001 L CNN "Status"
+	1    2850 2350
+	1    0    0    -1  
+$EndComp
+Connection ~ 2850 2250
+Wire Wire Line
+	2850 2250 2900 2250
+$Comp
+L dk_Test-Points:5016 TP1
+U 1 1 6040AC6E
+P 1000 1050
+F 0 "TP1" V 1000 1000 50  0000 R CNN
+F 1 "5016" H 1000 950 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 1200 1250 60  0001 L CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1354" H 1200 1350 60  0001 L CNN
+F 4 "36-5016CT-ND" H 1200 1450 60  0001 L CNN "Digi-Key_PN"
+F 5 "5016" H 1200 1550 60  0001 L CNN "MPN"
+F 6 "Test and Measurement" H 1200 1650 60  0001 L CNN "Category"
+F 7 "Test Points" H 1200 1750 60  0001 L CNN "Family"
+F 8 "http://www.keyelco.com/product-pdf.cfm?p=1354" H 1200 1850 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/keystone-electronics/5016/36-5016CT-ND/278888" H 1200 1950 60  0001 L CNN "DK_Detail_Page"
+F 10 "PC TEST POINT COMPACT" H 1200 2050 60  0001 L CNN "Description"
+F 11 "Keystone Electronics" H 1200 2150 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 1200 2250 60  0001 L CNN "Status"
+	1    1000 1050
+	0    -1   -1   0   
+$EndComp
+Connection ~ 900  1050
+Wire Wire Line
+	900  1050 900  1150
+$Comp
+L dk_Test-Points:5016 TP3
+U 1 1 6040C7A2
+P 2550 7100
+F 0 "TP3" H 2600 7147 50  0000 L CNN
+F 1 "5016" H 2550 7000 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 2750 7300 60  0001 L CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1354" H 2750 7400 60  0001 L CNN
+F 4 "36-5016CT-ND" H 2750 7500 60  0001 L CNN "Digi-Key_PN"
+F 5 "5016" H 2750 7600 60  0001 L CNN "MPN"
+F 6 "Test and Measurement" H 2750 7700 60  0001 L CNN "Category"
+F 7 "Test Points" H 2750 7800 60  0001 L CNN "Family"
+F 8 "http://www.keyelco.com/product-pdf.cfm?p=1354" H 2750 7900 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/keystone-electronics/5016/36-5016CT-ND/278888" H 2750 8000 60  0001 L CNN "DK_Detail_Page"
+F 10 "PC TEST POINT COMPACT" H 2750 8100 60  0001 L CNN "Description"
+F 11 "Keystone Electronics" H 2750 8200 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 2750 8300 60  0001 L CNN "Status"
+	1    2550 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Test-Points:5016 TP6
+U 1 1 60412D66
+P 2850 7100
+F 0 "TP6" H 2900 7147 50  0000 L CNN
+F 1 "5016" H 2850 7000 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 3050 7300 60  0001 L CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1354" H 3050 7400 60  0001 L CNN
+F 4 "36-5016CT-ND" H 3050 7500 60  0001 L CNN "Digi-Key_PN"
+F 5 "5016" H 3050 7600 60  0001 L CNN "MPN"
+F 6 "Test and Measurement" H 3050 7700 60  0001 L CNN "Category"
+F 7 "Test Points" H 3050 7800 60  0001 L CNN "Family"
+F 8 "http://www.keyelco.com/product-pdf.cfm?p=1354" H 3050 7900 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/keystone-electronics/5016/36-5016CT-ND/278888" H 3050 8000 60  0001 L CNN "DK_Detail_Page"
+F 10 "PC TEST POINT COMPACT" H 3050 8100 60  0001 L CNN "Description"
+F 11 "Keystone Electronics" H 3050 8200 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 3050 8300 60  0001 L CNN "Status"
+	1    2850 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Test-Points:5016 TP10
+U 1 1 60413589
+P 5900 6350
+F 0 "TP10" H 5950 6397 50  0000 L CNN
+F 1 "5016" H 5900 6250 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 6100 6550 60  0001 L CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1354" H 6100 6650 60  0001 L CNN
+F 4 "36-5016CT-ND" H 6100 6750 60  0001 L CNN "Digi-Key_PN"
+F 5 "5016" H 6100 6850 60  0001 L CNN "MPN"
+F 6 "Test and Measurement" H 6100 6950 60  0001 L CNN "Category"
+F 7 "Test Points" H 6100 7050 60  0001 L CNN "Family"
+F 8 "http://www.keyelco.com/product-pdf.cfm?p=1354" H 6100 7150 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/keystone-electronics/5016/36-5016CT-ND/278888" H 6100 7250 60  0001 L CNN "DK_Detail_Page"
+F 10 "PC TEST POINT COMPACT" H 6100 7350 60  0001 L CNN "Description"
+F 11 "Keystone Electronics" H 6100 7450 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6100 7550 60  0001 L CNN "Status"
+	1    5900 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Test-Points:5016 TP9
+U 1 1 6041AD12
+P 5600 6350
+F 0 "TP9" H 5650 6397 50  0000 L CNN
+F 1 "5016" H 5600 6250 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 5800 6550 60  0001 L CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1354" H 5800 6650 60  0001 L CNN
+F 4 "36-5016CT-ND" H 5800 6750 60  0001 L CNN "Digi-Key_PN"
+F 5 "5016" H 5800 6850 60  0001 L CNN "MPN"
+F 6 "Test and Measurement" H 5800 6950 60  0001 L CNN "Category"
+F 7 "Test Points" H 5800 7050 60  0001 L CNN "Family"
+F 8 "http://www.keyelco.com/product-pdf.cfm?p=1354" H 5800 7150 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/keystone-electronics/5016/36-5016CT-ND/278888" H 5800 7250 60  0001 L CNN "DK_Detail_Page"
+F 10 "PC TEST POINT COMPACT" H 5800 7350 60  0001 L CNN "Description"
+F 11 "Keystone Electronics" H 5800 7450 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 5800 7550 60  0001 L CNN "Status"
+	1    5600 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Test-Points:5016 TP7
+U 1 1 6041B4B7
+P 5300 6350
+F 0 "TP7" H 5350 6397 50  0000 L CNN
+F 1 "5016" H 5300 6250 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 5500 6550 60  0001 L CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1354" H 5500 6650 60  0001 L CNN
+F 4 "36-5016CT-ND" H 5500 6750 60  0001 L CNN "Digi-Key_PN"
+F 5 "5016" H 5500 6850 60  0001 L CNN "MPN"
+F 6 "Test and Measurement" H 5500 6950 60  0001 L CNN "Category"
+F 7 "Test Points" H 5500 7050 60  0001 L CNN "Family"
+F 8 "http://www.keyelco.com/product-pdf.cfm?p=1354" H 5500 7150 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/keystone-electronics/5016/36-5016CT-ND/278888" H 5500 7250 60  0001 L CNN "DK_Detail_Page"
+F 10 "PC TEST POINT COMPACT" H 5500 7350 60  0001 L CNN "Description"
+F 11 "Keystone Electronics" H 5500 7450 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 5500 7550 60  0001 L CNN "Status"
+	1    5300 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Test-Points:5016 TP11
+U 1 1 6041C28E
+P 11850 750
+F 0 "TP11" H 11900 797 50  0000 L CNN
+F 1 "5016" H 11850 650 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 12050 950 60  0001 L CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1354" H 12050 1050 60  0001 L CNN
+F 4 "36-5016CT-ND" H 12050 1150 60  0001 L CNN "Digi-Key_PN"
+F 5 "5016" H 12050 1250 60  0001 L CNN "MPN"
+F 6 "Test and Measurement" H 12050 1350 60  0001 L CNN "Category"
+F 7 "Test Points" H 12050 1450 60  0001 L CNN "Family"
+F 8 "http://www.keyelco.com/product-pdf.cfm?p=1354" H 12050 1550 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/keystone-electronics/5016/36-5016CT-ND/278888" H 12050 1650 60  0001 L CNN "DK_Detail_Page"
+F 10 "PC TEST POINT COMPACT" H 12050 1750 60  0001 L CNN "Description"
+F 11 "Keystone Electronics" H 12050 1850 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 12050 1950 60  0001 L CNN "Status"
+	1    11850 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Test-Points:5016 TP12
+U 1 1 60423087
+P 12200 750
+F 0 "TP12" H 12250 797 50  0000 L CNN
+F 1 "5016" H 12200 650 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 12400 950 60  0001 L CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1354" H 12400 1050 60  0001 L CNN
+F 4 "36-5016CT-ND" H 12400 1150 60  0001 L CNN "Digi-Key_PN"
+F 5 "5016" H 12400 1250 60  0001 L CNN "MPN"
+F 6 "Test and Measurement" H 12400 1350 60  0001 L CNN "Category"
+F 7 "Test Points" H 12400 1450 60  0001 L CNN "Family"
+F 8 "http://www.keyelco.com/product-pdf.cfm?p=1354" H 12400 1550 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/keystone-electronics/5016/36-5016CT-ND/278888" H 12400 1650 60  0001 L CNN "DK_Detail_Page"
+F 10 "PC TEST POINT COMPACT" H 12400 1750 60  0001 L CNN "Description"
+F 11 "Keystone Electronics" H 12400 1850 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 12400 1950 60  0001 L CNN "Status"
+	1    12200 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11850 650  11850 550 
+Wire Wire Line
+	12200 650  12200 450 
+Wire Wire Line
+	11600 5450 11600 5550
+Wire Wire Line
+	11600 5850 11600 5950
+Wire Wire Line
+	11600 6350 11600 6250
+Text Label 14250 -500 0    50   ~ 0
+STM32_SCK
+Text Label 14250 -300 0    50   ~ 0
+STM32_MOSI
+Text Label 14250 -400 0    50   ~ 0
+STM32_MISO
+Text Label 14250 -200 0    50   ~ 0
+SENSOR_CS
+Text Label 14250 -600 0    50   ~ 0
+FRAM_CS
+Text Label 14250 100  0    50   ~ 0
+FRAM_~WP
+Text Label 14250 200  0    50   ~ 0
+FRAM_~HOLD
+Wire Wire Line
+	14100 -100 14750 -100
+Wire Wire Line
+	14100 0    14750 0   
+Wire Wire Line
+	14100 100  14250 100 
+Wire Wire Line
+	14250 200  14100 200 
+Wire Wire Line
+	14250 -200 14100 -200
+Wire Wire Line
+	14250 -300 14100 -300
+Wire Wire Line
+	14250 -400 14100 -400
+Wire Wire Line
+	14250 -500 14100 -500
+Wire Wire Line
+	14250 -600 14100 -600
+Text Notes 4700 -650 0    61   ~ 0
+Mounting Holes
+Text Notes 4650 -400 0    61   ~ 0
+BOOT0 - low for boot from flash\nHigh for bootloader
+Text Notes 4700 -250 0    61   ~ 0
+Revision bits
+Wire Wire Line
+	7850 6000 8650 6000
+Wire Wire Line
+	7850 6200 8800 6200
+Wire Wire Line
+	9550 6100 9950 6100
+$Comp
+L Device:R R?
+U 1 1 6050FA26
+P 8650 5800
+F 0 "R?" H 8720 5846 50  0000 L CNN
+F 1 "10K" H 8720 5755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8580 5800 50  0001 C CNN
+F 3 "~" H 8650 5800 50  0001 C CNN
+F 4 "RC0805JR-0710KL" H 8650 5800 50  0001 C CNN "MPN"
+	1    8650 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 6000 8650 5950
+Connection ~ 8650 6000
+Wire Wire Line
+	8650 6000 8800 6000
+Wire Wire Line
+	8650 5650 8650 5550
+Wire Wire Line
+	9550 6000 9700 6000
+Wire Wire Line
+	9700 6000 9700 5850
 $EndSCHEMATC

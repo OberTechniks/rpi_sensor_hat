@@ -5,10 +5,22 @@ D FRAM (Ferroelectric RAM) Memory IC 1Mb (128K x 8) SPI 40MHz  8-SOIC
 F https://www.cypress.com/file/41691/download
 $ENDCMP
 #
+$CMP LG_R971-KN-1
+D LED GREEN DIFFUSED 0805 SMD
+K 475-1410-1-ND CHIPLED 0805
+F https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf
+$ENDCMP
+#
 $CMP SSW-120-03-G-D
 D Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
 F ~
+$ENDCMP
+#
+$CMP STM32L062K8Tx
+D ARM Cortex-M0+ MCU, 64KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 25 GPIO, LQFP-32
+K ARM Cortex-M0+ STM32L0 STM32L0x2
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108218.pdf
 $ENDCMP
 #
 #End Doc Library

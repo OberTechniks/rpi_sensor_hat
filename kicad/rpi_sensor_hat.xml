@@ -1,0 +1,1763 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\eoberholzer\Documents\Projects\rpi_sensor_hat\kicad\rpi_sensor_hat.sch</source>
+    <date>12/30/2020 4:23:51 PM</date>
+    <tool>Eeschema (5.1.8)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>rpi_sensor_hat</title>
+        <company>OberTechniks</company>
+        <rev>0</rev>
+        <date>2020-12-24</date>
+        <source>rpi_sensor_hat.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U3">
+      <value>FM25V10-G</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.cypress.com/file/41691/download</datasheet>
+      <fields>
+        <field name="MPN">FM25V10-G</field>
+        <field name="PLACE">STD</field>
+      </fields>
+      <libsource lib="rpi_sensor_hat" part="FM25V10-G" description="FRAM (Ferroelectric RAM) Memory IC 1Mb (128K x 8) SPI 40MHz  8-SOIC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEA3E28</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>BME280</value>
+      <footprint>rpi_sensor_hat:Pressure_Sensor_LGA-8_2.5x2.5mm_BME280</footprint>
+      <datasheet>https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280-DS002.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280-DS002.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/bosch-sensortec/BME280/828-1063-1-ND/6136314</field>
+        <field name="Description">SENSOR PRESSURE HUMIDITY TEMP</field>
+        <field name="Digi-Key_PN">828-1063-1-ND</field>
+        <field name="Family">Humidity, Moisture Sensors</field>
+        <field name="MPN">BME280</field>
+        <field name="Manufacturer">Bosch Sensortec</field>
+        <field name="PLACE">STD</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Humidity-Moisture-Sensors" part="BME280" description="SENSOR PRESSURE HUMIDITY TEMP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEAAAE6</tstamp>
+    </comp>
+    <comp ref="BAT1">
+      <value>BS-7</value>
+      <footprint>rpi_sensor_hat:Battery_Holder_Coin_2032_BS-7</footprint>
+      <datasheet>http://www.memoryprotectiondevices.com/datasheets/BS-7-datasheet.pdf</datasheet>
+      <fields>
+        <field name="Category">Battery Products</field>
+        <field name="DK_Datasheet_Link">http://www.memoryprotectiondevices.com/datasheets/BS-7-datasheet.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/mpd-memory-protection-devices/BS-7/BS-7-ND/389447</field>
+        <field name="Description">BATTERY HOLDER COIN 20MM PC PIN</field>
+        <field name="Digi-Key_PN">BS-7-ND</field>
+        <field name="Family">Battery Holders, Clips, Contacts</field>
+        <field name="MPN">BS-7</field>
+        <field name="Manufacturer">MPD (Memory Protection Devices)</field>
+        <field name="PLACE">STD</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Battery-Holders-Clips-Contacts" part="BS-7" description="BATTERY HOLDER COIN 20MM PC PIN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEB25D9</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>MBR0520LT1G</value>
+      <footprint>rpi_sensor_hat:SOD-123</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/MBR0520LT1-D.PDF</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">http://www.onsemi.com/pub/Collateral/MBR0520LT1-D.PDF</field>
+        <field name="DK_Detail_Page">/product-detail/en/on-semiconductor/MBR0520LT1G/MBR0520LT1GOSCT-ND/917965</field>
+        <field name="Description">DIODE SCHOTTKY 20V 500MA SOD123</field>
+        <field name="Digi-Key_PN">MBR0520LT1GOSCT-ND</field>
+        <field name="Family">Diodes - Rectifiers - Single</field>
+        <field name="MPN">MBR0520LT1G</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="PLACE">STD</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Diodes-Rectifiers-Single" part="MBR0520LT1G" description="DIODE SCHOTTKY 20V 500MA SOD123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEB9BBB</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>BSS84</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://assets.nexperia.com/documents/data-sheet/BSS84.pdf</datasheet>
+      <fields>
+        <field name="MPN">BSS84-7-F</field>
+        <field name="PLACE">STD</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="BSS84" description="-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEBB9BB</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">RC0805JR-07100KL</field>
+        <field name="PLACE">STD</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEBEEFA</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">TMK212BBJ106KG-T</field>
+        <field name="PLACE">STD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEC0D86</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">08055C104KAT2A</field>
+        <field name="PLACE">STD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEC216B</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>CAT24C128</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/CAT24C128-D.PDF</datasheet>
+      <fields>
+        <field name="MPN">CAT24C128WI-GT3</field>
+        <field name="PLACE">STD</field>
+      </fields>
+      <libsource lib="Memory_EEPROM" part="CAT24C128" description="128 kb CMOS Serial EEPROM, SOIC-8/TSSOP-8/DFN-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF2B638</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">TSW-103-07-F-S</field>
+        <field name="Mating Part">SNT-100-BK-T</field>
+        <field name="PLACE">STD</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF34EA5</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">RC0805FR-07100RL</field>
+        <field name="PLACE">STD</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF412BB</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LG_R971-KN-1</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="DK_Datasheet_Link">https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/osram-opto-semiconductors-inc/LG-R971-KN-1/475-1410-1-ND/1802598</field>
+        <field name="Description">LED GREEN DIFFUSED 0805 SMD</field>
+        <field name="Digi-Key_PN">475-1410-1-ND</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="MPN">LG R971-KN-1</field>
+        <field name="Manufacturer">OSRAM Opto Semiconductors Inc.</field>
+        <field name="PLACE">STD</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="rpi_sensor_hat" part="LG_R971-KN-1" description="LED GREEN DIFFUSED 0805 SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF549EB</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>5016</value>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
+      <datasheet>http://www.keyelco.com/product-pdf.cfm?p=1354</datasheet>
+      <fields>
+        <field name="Category">Test and Measurement</field>
+        <field name="DK_Datasheet_Link">http://www.keyelco.com/product-pdf.cfm?p=1354</field>
+        <field name="DK_Detail_Page">/product-detail/en/keystone-electronics/5016/36-5016CT-ND/278888</field>
+        <field name="Description">PC TEST POINT COMPACT</field>
+        <field name="Digi-Key_PN">36-5016CT-ND</field>
+        <field name="Family">Test Points</field>
+        <field name="MPN">5016</field>
+        <field name="Manufacturer">Keystone Electronics</field>
+        <field name="PLACE">MECH</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Test-Points" part="5016" description="PC TEST POINT COMPACT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF713DA</tstamp>
+    </comp>
+    <comp ref="TP8">
+      <value>5016</value>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
+      <datasheet>http://www.keyelco.com/product-pdf.cfm?p=1354</datasheet>
+      <fields>
+        <field name="Category">Test and Measurement</field>
+        <field name="DK_Datasheet_Link">http://www.keyelco.com/product-pdf.cfm?p=1354</field>
+        <field name="DK_Detail_Page">/product-detail/en/keystone-electronics/5016/36-5016CT-ND/278888</field>
+        <field name="Description">PC TEST POINT COMPACT</field>
+        <field name="Digi-Key_PN">36-5016CT-ND</field>
+        <field name="Family">Test Points</field>
+        <field name="MPN">5016</field>
+        <field name="Manufacturer">Keystone Electronics</field>
+        <field name="PLACE">MECH</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Test-Points" part="5016" description="PC TEST POINT COMPACT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF74F53</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">RC0805FR-071KL</field>
+        <field name="PLACE">STD</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FFC429C</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>3.9K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">RC0805FR-073K9L</field>
+        <field name="PLACE">STD</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FFC6B52</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>3.9K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">RC0805FR-073K9L</field>
+        <field name="PLACE">STD</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FFC84C0</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">RC0805JR-0710KL</field>
+        <field name="PLACE">STD</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6002329C</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">08055C104KAT2A</field>
+        <field name="PLACE">STD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6018B6C8</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">08055C104KAT2A</field>
+        <field name="PLACE">STD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6018C9BD</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">08055C104KAT2A</field>
+        <field name="PLACE">STD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6018CF5A</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">08055C104KAT2A</field>
+        <field name="PLACE">STD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6018D86F</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">08055C104KAT2A</field>
+        <field name="PLACE">STD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601CE5B9</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">08055C104KAT2A</field>
+        <field name="PLACE">STD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601D05AC</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">08055C104KAT2A</field>
+        <field name="PLACE">STD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601D0C7B</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>STM32L062K8Tx</value>
+      <footprint>Package_QFP:LQFP-32_7x7mm_P0.8mm</footprint>
+      <datasheet>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108218.pdf</datasheet>
+      <fields>
+        <field name="MPN">STM32L062K8T6</field>
+        <field name="PLACE">STD</field>
+      </fields>
+      <libsource lib="rpi_sensor_hat" part="STM32L062K8Tx" description="ARM Cortex-M0+ MCU, 64KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 25 GPIO, LQFP-32"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6023055D</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x06</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">61300611121</field>
+        <field name="PLACE">STD</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6024C871</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">RC0805FR-07100RL</field>
+        <field name="PLACE">STD</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60276BC1</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">RC0805FR-07100RL</field>
+        <field name="PLACE">STD</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60278459</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>3.9K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">RC0805FR-073K9L</field>
+        <field name="PLACE">DNP</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60320F15</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">RC0805FR-07100RL</field>
+        <field name="PLACE">STD</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6032B534</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">RC0805FR-07100RL</field>
+        <field name="PLACE">STD</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6032E264</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>3.9K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">RC0805FR-073K9L</field>
+        <field name="PLACE">DNP</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6036582C</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>5016</value>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
+      <datasheet>http://www.keyelco.com/product-pdf.cfm?p=1354</datasheet>
+      <fields>
+        <field name="Category">Test and Measurement</field>
+        <field name="DK_Datasheet_Link">http://www.keyelco.com/product-pdf.cfm?p=1354</field>
+        <field name="DK_Detail_Page">/product-detail/en/keystone-electronics/5016/36-5016CT-ND/278888</field>
+        <field name="Description">PC TEST POINT COMPACT</field>
+        <field name="Digi-Key_PN">36-5016CT-ND</field>
+        <field name="Family">Test Points</field>
+        <field name="MPN">5016</field>
+        <field name="Manufacturer">Keystone Electronics</field>
+        <field name="PLACE">MECH</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Test-Points" part="5016" description="PC TEST POINT COMPACT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604083E4</tstamp>
+    </comp>
+    <comp ref="TP5">
+      <value>5016</value>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
+      <datasheet>http://www.keyelco.com/product-pdf.cfm?p=1354</datasheet>
+      <fields>
+        <field name="Category">Test and Measurement</field>
+        <field name="DK_Datasheet_Link">http://www.keyelco.com/product-pdf.cfm?p=1354</field>
+        <field name="DK_Detail_Page">/product-detail/en/keystone-electronics/5016/36-5016CT-ND/278888</field>
+        <field name="Description">PC TEST POINT COMPACT</field>
+        <field name="Digi-Key_PN">36-5016CT-ND</field>
+        <field name="Family">Test Points</field>
+        <field name="MPN">5016</field>
+        <field name="Manufacturer">Keystone Electronics</field>
+        <field name="PLACE">MECH</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Test-Points" part="5016" description="PC TEST POINT COMPACT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6040A457</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>5016</value>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
+      <datasheet>http://www.keyelco.com/product-pdf.cfm?p=1354</datasheet>
+      <fields>
+        <field name="Category">Test and Measurement</field>
+        <field name="DK_Datasheet_Link">http://www.keyelco.com/product-pdf.cfm?p=1354</field>
+        <field name="DK_Detail_Page">/product-detail/en/keystone-electronics/5016/36-5016CT-ND/278888</field>
+        <field name="Description">PC TEST POINT COMPACT</field>
+        <field name="Digi-Key_PN">36-5016CT-ND</field>
+        <field name="Family">Test Points</field>
+        <field name="MPN">5016</field>
+        <field name="Manufacturer">Keystone Electronics</field>
+        <field name="PLACE">MECH</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Test-Points" part="5016" description="PC TEST POINT COMPACT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6040AC6E</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>5016</value>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
+      <datasheet>http://www.keyelco.com/product-pdf.cfm?p=1354</datasheet>
+      <fields>
+        <field name="Category">Test and Measurement</field>
+        <field name="DK_Datasheet_Link">http://www.keyelco.com/product-pdf.cfm?p=1354</field>
+        <field name="DK_Detail_Page">/product-detail/en/keystone-electronics/5016/36-5016CT-ND/278888</field>
+        <field name="Description">PC TEST POINT COMPACT</field>
+        <field name="Digi-Key_PN">36-5016CT-ND</field>
+        <field name="Family">Test Points</field>
+        <field name="MPN">5016</field>
+        <field name="Manufacturer">Keystone Electronics</field>
+        <field name="PLACE">MECH</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Test-Points" part="5016" description="PC TEST POINT COMPACT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6040C7A2</tstamp>
+    </comp>
+    <comp ref="TP6">
+      <value>5016</value>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
+      <datasheet>http://www.keyelco.com/product-pdf.cfm?p=1354</datasheet>
+      <fields>
+        <field name="Category">Test and Measurement</field>
+        <field name="DK_Datasheet_Link">http://www.keyelco.com/product-pdf.cfm?p=1354</field>
+        <field name="DK_Detail_Page">/product-detail/en/keystone-electronics/5016/36-5016CT-ND/278888</field>
+        <field name="Description">PC TEST POINT COMPACT</field>
+        <field name="Digi-Key_PN">36-5016CT-ND</field>
+        <field name="Family">Test Points</field>
+        <field name="MPN">5016</field>
+        <field name="Manufacturer">Keystone Electronics</field>
+        <field name="PLACE">MECH</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Test-Points" part="5016" description="PC TEST POINT COMPACT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60412D66</tstamp>
+    </comp>
+    <comp ref="TP10">
+      <value>5016</value>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
+      <datasheet>http://www.keyelco.com/product-pdf.cfm?p=1354</datasheet>
+      <fields>
+        <field name="Category">Test and Measurement</field>
+        <field name="DK_Datasheet_Link">http://www.keyelco.com/product-pdf.cfm?p=1354</field>
+        <field name="DK_Detail_Page">/product-detail/en/keystone-electronics/5016/36-5016CT-ND/278888</field>
+        <field name="Description">PC TEST POINT COMPACT</field>
+        <field name="Digi-Key_PN">36-5016CT-ND</field>
+        <field name="Family">Test Points</field>
+        <field name="MPN">5016</field>
+        <field name="Manufacturer">Keystone Electronics</field>
+        <field name="PLACE">MECH</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Test-Points" part="5016" description="PC TEST POINT COMPACT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60413589</tstamp>
+    </comp>
+    <comp ref="TP9">
+      <value>5016</value>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
+      <datasheet>http://www.keyelco.com/product-pdf.cfm?p=1354</datasheet>
+      <fields>
+        <field name="Category">Test and Measurement</field>
+        <field name="DK_Datasheet_Link">http://www.keyelco.com/product-pdf.cfm?p=1354</field>
+        <field name="DK_Detail_Page">/product-detail/en/keystone-electronics/5016/36-5016CT-ND/278888</field>
+        <field name="Description">PC TEST POINT COMPACT</field>
+        <field name="Digi-Key_PN">36-5016CT-ND</field>
+        <field name="Family">Test Points</field>
+        <field name="MPN">5016</field>
+        <field name="Manufacturer">Keystone Electronics</field>
+        <field name="PLACE">MECH</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Test-Points" part="5016" description="PC TEST POINT COMPACT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6041AD12</tstamp>
+    </comp>
+    <comp ref="TP7">
+      <value>5016</value>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
+      <datasheet>http://www.keyelco.com/product-pdf.cfm?p=1354</datasheet>
+      <fields>
+        <field name="Category">Test and Measurement</field>
+        <field name="DK_Datasheet_Link">http://www.keyelco.com/product-pdf.cfm?p=1354</field>
+        <field name="DK_Detail_Page">/product-detail/en/keystone-electronics/5016/36-5016CT-ND/278888</field>
+        <field name="Description">PC TEST POINT COMPACT</field>
+        <field name="Digi-Key_PN">36-5016CT-ND</field>
+        <field name="Family">Test Points</field>
+        <field name="MPN">5016</field>
+        <field name="Manufacturer">Keystone Electronics</field>
+        <field name="PLACE">MECH</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Test-Points" part="5016" description="PC TEST POINT COMPACT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6041B4B7</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">RC0805JR-0710KL</field>
+        <field name="PLACE">STD</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6050FA26</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="PLACE">MECH</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605756B6</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="PLACE">MECH</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60576231</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="PLACE">MECH</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60576702</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="PLACE">MECH</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60576906</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x03</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">TSW-103-07-F-S</field>
+        <field name="Mating Part">SNT-100-BK-T</field>
+        <field name="PLACE">STD</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6058F7E1</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">RC0805JR-0710KL</field>
+        <field name="PLACE">DNP</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60591EEE</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">RC0805JR-0710KL</field>
+        <field name="PLACE">STD</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6059615A</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">RC0805JR-0710KL</field>
+        <field name="PLACE">DNP</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605DB265</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">RC0805JR-0710KL</field>
+        <field name="PLACE">STD</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605DB279</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">RC0805JR-0710KL</field>
+        <field name="PLACE">DNP</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605E9931</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">RC0805JR-0710KL</field>
+        <field name="PLACE">STD</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605E9945</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_02x05_Odd_Even</value>
+      <footprint>Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">FTSH-105-01-L-DV-K</field>
+        <field name="PLACE">STD</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6060D431</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">RC0805FR-07100RL</field>
+        <field name="PLACE">STD</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606780ED</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">RC0805FR-07100RL</field>
+        <field name="PLACE">STD</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606798CC</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">08055C104KAT2A</field>
+        <field name="PLACE">STD</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606C86DA</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">RC0805JR-0710KL</field>
+        <field name="PLACE">STD</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606C911B</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">RC0805JR-0710KL</field>
+        <field name="PLACE">STD</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60769911</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">RC0805JR-0710KL</field>
+        <field name="PLACE">STD</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60769E8E</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">RC0805FR-07100RL</field>
+        <field name="PLACE">STD</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6094F1D2</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LG_R971-KN-1</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="DK_Datasheet_Link">https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/osram-opto-semiconductors-inc/LG-R971-KN-1/475-1410-1-ND/1802598</field>
+        <field name="Description">LED GREEN DIFFUSED 0805 SMD</field>
+        <field name="Digi-Key_PN">475-1410-1-ND</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="MPN">LG R971-KN-1</field>
+        <field name="Manufacturer">OSRAM Opto Semiconductors Inc.</field>
+        <field name="PLACE">STD</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="rpi_sensor_hat" part="LG_R971-KN-1" description="LED GREEN DIFFUSED 0805 SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6094F623</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">RC0805FR-07100RL</field>
+        <field name="PLACE">STD</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6097FAF3</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LG_R971-KN-1</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="DK_Datasheet_Link">https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/osram-opto-semiconductors-inc/LG-R971-KN-1/475-1410-1-ND/1802598</field>
+        <field name="Description">LED GREEN DIFFUSED 0805 SMD</field>
+        <field name="Digi-Key_PN">475-1410-1-ND</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="MPN">LG R971-KN-1</field>
+        <field name="Manufacturer">OSRAM Opto Semiconductors Inc.</field>
+        <field name="PLACE">STD</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="rpi_sensor_hat" part="LG_R971-KN-1" description="LED GREEN DIFFUSED 0805 SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60980068</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>SSW-120-03-G-D</value>
+      <footprint>rpi_sensor_hat:ssw-120-03-g-d</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="PLACE">STD</field>
+      </fields>
+      <libsource lib="rpi_sensor_hat" part="SSW-120-03-G-D" description="Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE5C81D</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">RC0805FR-07100RL</field>
+        <field name="PLACE">STD</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DE1ACC</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">RC0805JR-0710KL</field>
+        <field name="PLACE">STD</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EA13BC</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x05_Odd_Even">
+      <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="Memory_EEPROM" part="24LC16">
+      <aliases>
+        <alias>24LC02</alias>
+        <alias>24LC00</alias>
+        <alias>24LC04</alias>
+        <alias>24LC08</alias>
+        <alias>24LC01</alias>
+        <alias>24LC512</alias>
+        <alias>24LC64</alias>
+        <alias>24LC1025</alias>
+        <alias>24LC32</alias>
+        <alias>24LC256</alias>
+        <alias>24LC128</alias>
+        <alias>CAT24C256</alias>
+        <alias>CAT24C128</alias>
+      </aliases>
+      <description>I2C Serial EEPROM, 16Kb, DIP-8/SOIC-8/TSSOP-8/DFN-8</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/21703d.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x4.9mm*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+        <fp>DFN*3x2mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">24LC16</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SDA" type="BiDi"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="WP" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="TP0610T">
+      <aliases>
+        <alias>VP0610T</alias>
+        <alias>BSS84</alias>
+        <alias>NTR2101P</alias>
+        <alias>BSS83P</alias>
+        <alias>Si2319CDS</alias>
+        <alias>IRLML6401</alias>
+        <alias>IRLML6402</alias>
+        <alias>DMG2301L</alias>
+        <alias>AO3401A</alias>
+        <alias>IRLML9301</alias>
+        <alias>IRLML5203</alias>
+        <alias>Si2371EDS</alias>
+        <alias>TSM2301ACX</alias>
+        <alias>FDN340P</alias>
+      </aliases>
+      <description>-0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23</description>
+      <docs>http://www.vishay.com/docs/70209/70209.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">TP0610T</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Battery-Holders-Clips-Contacts" part="BS-7">
+      <description>BATTERY HOLDER COIN 20MM PC PIN</description>
+      <docs>http://www.memoryprotectiondevices.com/datasheets/BS-7-datasheet.pdf</docs>
+      <fields>
+        <field name="Reference">BAT</field>
+        <field name="Value">BS-7</field>
+        <field name="Footprint">digikey-footprints:Battery_Holder_Coin_2032_BS-7</field>
+        <field name="Datasheet">http://www.memoryprotectiondevices.com/datasheets/BS-7-datasheet.pdf</field>
+        <field name="Digi-Key_PN">BS-7-ND</field>
+        <field name="MPN">BS-7</field>
+        <field name="Category">Battery Products</field>
+        <field name="Family">Battery Holders, Clips, Contacts</field>
+        <field name="DK_Datasheet_Link">http://www.memoryprotectiondevices.com/datasheets/BS-7-datasheet.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/mpd-memory-protection-devices/BS-7/BS-7-ND/389447</field>
+        <field name="Description">BATTERY HOLDER COIN 20MM PC PIN</field>
+        <field name="Manufacturer">MPD (Memory Protection Devices)</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="Neg" name="~" type="power_out"/>
+        <pin num="Pos" name="~" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Diodes-Rectifiers-Single" part="MBR0520LT1G">
+      <description>DIODE SCHOTTKY 20V 500MA SOD123</description>
+      <docs>http://www.onsemi.com/pub/Collateral/MBR0520LT1-D.PDF</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">MBR0520LT1G</field>
+        <field name="Footprint">digikey-footprints:SOD-123</field>
+        <field name="Datasheet">http://www.onsemi.com/pub/Collateral/MBR0520LT1-D.PDF</field>
+        <field name="Digi-Key_PN">MBR0520LT1GOSCT-ND</field>
+        <field name="MPN">MBR0520LT1G</field>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="Family">Diodes - Rectifiers - Single</field>
+        <field name="DK_Datasheet_Link">http://www.onsemi.com/pub/Collateral/MBR0520LT1-D.PDF</field>
+        <field name="DK_Detail_Page">/product-detail/en/on-semiconductor/MBR0520LT1G/MBR0520LT1GOSCT-ND/917965</field>
+        <field name="Description">DIODE SCHOTTKY 20V 500MA SOD123</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="A" name="~" type="passive"/>
+        <pin num="K" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Humidity-Moisture-Sensors" part="BME280">
+      <description>SENSOR PRESSURE HUMIDITY TEMP</description>
+      <docs>https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280-DS002.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BME280</field>
+        <field name="Footprint">digikey-footprints:Pressure_Sensor_LGA-8_2.5x2.5mm_BME280</field>
+        <field name="Datasheet">https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280-DS002.pdf</field>
+        <field name="Digi-Key_PN">828-1063-1-ND</field>
+        <field name="MPN">BME280</field>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="Family">Humidity, Moisture Sensors</field>
+        <field name="DK_Datasheet_Link">https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280-DS002.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/bosch-sensortec/BME280/828-1063-1-ND/6136314</field>
+        <field name="Description">SENSOR PRESSURE HUMIDITY TEMP</field>
+        <field name="Manufacturer">Bosch Sensortec</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="CSB" type="input"/>
+        <pin num="3" name="SDI" type="BiDi"/>
+        <pin num="4" name="SCK" type="input"/>
+        <pin num="5" name="SDO" type="BiDi"/>
+        <pin num="6" name="VDDIO" type="power_in"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Test-Points" part="5016">
+      <description>PC TEST POINT COMPACT</description>
+      <docs>http://www.keyelco.com/product-pdf.cfm?p=1354</docs>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">5016</field>
+        <field name="Footprint">digikey-footprints:Test_Point_3.43x1.78mm</field>
+        <field name="Datasheet">http://www.keyelco.com/product-pdf.cfm?p=1354</field>
+        <field name="Digi-Key_PN">36-5016CT-ND</field>
+        <field name="MPN">5016</field>
+        <field name="Category">Test and Measurement</field>
+        <field name="Family">Test Points</field>
+        <field name="DK_Datasheet_Link">http://www.keyelco.com/product-pdf.cfm?p=1354</field>
+        <field name="DK_Detail_Page">/product-detail/en/keystone-electronics/5016/36-5016CT-ND/278888</field>
+        <field name="Description">PC TEST POINT COMPACT</field>
+        <field name="Manufacturer">Keystone Electronics</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="rpi_sensor_hat" part="FM25V10-G">
+      <description>FRAM (Ferroelectric RAM) Memory IC 1Mb (128K x 8) SPI 40MHz  8-SOIC</description>
+      <docs>https://www.cypress.com/file/41691/download</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FM25V10-G</field>
+        <field name="Footprint">Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~CS" type="passive"/>
+        <pin num="2" name="MISO" type="passive"/>
+        <pin num="3" name="~WP" type="passive"/>
+        <pin num="4" name="VSS" type="passive"/>
+        <pin num="5" name="MOSI" type="passive"/>
+        <pin num="6" name="SCK" type="passive"/>
+        <pin num="7" name="~HOLD" type="passive"/>
+        <pin num="8" name="VDD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="rpi_sensor_hat" part="LG_R971-KN-1">
+      <description>LED GREEN DIFFUSED 0805 SMD</description>
+      <docs>https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LG_R971-KN-1</field>
+        <field name="Footprint">LED_SMD:LED_0805_2012Metric</field>
+        <field name="Digi-Key_PN">475-1410-1-ND</field>
+        <field name="MPN">LG R971-KN-1</field>
+        <field name="Category">Optoelectronics</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="DK_Datasheet_Link">https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/osram-opto-semiconductors-inc/LG-R971-KN-1/475-1410-1-ND/1802598</field>
+        <field name="Description">LED GREEN DIFFUSED 0805 SMD</field>
+        <field name="Manufacturer">OSRAM Opto Semiconductors Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="rpi_sensor_hat" part="SSW-120-03-G-D">
+      <description>Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SSW-120-03-G-D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+        <pin num="35" name="Pin_35" type="passive"/>
+        <pin num="36" name="Pin_36" type="passive"/>
+        <pin num="37" name="Pin_37" type="passive"/>
+        <pin num="38" name="Pin_38" type="passive"/>
+        <pin num="39" name="Pin_39" type="passive"/>
+        <pin num="40" name="Pin_40" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="rpi_sensor_hat" part="STM32L062K8Tx">
+      <description>ARM Cortex-M0+ MCU, 64KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 25 GPIO, LQFP-32</description>
+      <docs>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108218.pdf</docs>
+      <footprints>
+        <fp>LQFP*7x7mm*P0.8mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32L062K8Tx</field>
+        <field name="Footprint">Package_QFP:LQFP-32_7x7mm_P0.8mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="OSC32IN" type="BiDi"/>
+        <pin num="3" name="OSC32OUT" type="BiDi"/>
+        <pin num="4" name="NRST" type="input"/>
+        <pin num="5" name="VDDA" type="power_in"/>
+        <pin num="6" name="PA0" type="BiDi"/>
+        <pin num="7" name="PA1" type="BiDi"/>
+        <pin num="8" name="PA2/USART2TX" type="BiDi"/>
+        <pin num="9" name="PA3/USART2RX" type="BiDi"/>
+        <pin num="10" name="PA4/SPI1NSS" type="BiDi"/>
+        <pin num="11" name="PA5/SPI1SCK" type="BiDi"/>
+        <pin num="12" name="PA6/SPI1MISO" type="BiDi"/>
+        <pin num="13" name="PA7/SPI1MOSI" type="BiDi"/>
+        <pin num="14" name="PB0" type="BiDi"/>
+        <pin num="15" name="PB1" type="BiDi"/>
+        <pin num="16" name="VSS" type="power_in"/>
+        <pin num="17" name="VDD" type="power_in"/>
+        <pin num="18" name="PA8" type="BiDi"/>
+        <pin num="19" name="PA9/USART1TX" type="BiDi"/>
+        <pin num="20" name="PA10/USART1RX" type="BiDi"/>
+        <pin num="21" name="PA11" type="BiDi"/>
+        <pin num="22" name="PA12" type="BiDi"/>
+        <pin num="23" name="PA13/SWDIO" type="BiDi"/>
+        <pin num="24" name="PA14/SWCLK" type="BiDi"/>
+        <pin num="25" name="PA15" type="BiDi"/>
+        <pin num="26" name="PB3" type="BiDi"/>
+        <pin num="27" name="PB4" type="BiDi"/>
+        <pin num="28" name="PB5" type="BiDi"/>
+        <pin num="29" name="PB6/I2C1SCL" type="BiDi"/>
+        <pin num="30" name="PB7/I2C1SDA" type="BiDi"/>
+        <pin num="31" name="BOOT0" type="input"/>
+        <pin num="32" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+    <library logical="Memory_EEPROM">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Memory_EEPROM.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Transistor_FET.lib</uri>
+    </library>
+    <library logical="dk_Battery-Holders-Clips-Contacts">
+      <uri>C:/Users/eoberholzer/Documents/digikey-kicad-library-master/digikey-symbols/dk_Battery-Holders-Clips-Contacts.lib</uri>
+    </library>
+    <library logical="dk_Diodes-Rectifiers-Single">
+      <uri>C:/Users/eoberholzer/Documents/digikey-kicad-library-master/digikey-symbols/dk_Diodes-Rectifiers-Single.lib</uri>
+    </library>
+    <library logical="dk_Humidity-Moisture-Sensors">
+      <uri>C:/Users/eoberholzer/Documents/digikey-kicad-library-master/digikey-symbols/dk_Humidity-Moisture-Sensors.lib</uri>
+    </library>
+    <library logical="dk_Test-Points">
+      <uri>C:/Users/eoberholzer/Documents/digikey-kicad-library-master/digikey-symbols/dk_Test-Points.lib</uri>
+    </library>
+    <library logical="rpi_sensor_hat">
+      <uri>C:\Users\eoberholzer\Documents\Projects\rpi_sensor_hat\kicad/rpi_sensor_hat.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/STM32_SCK">
+      <node ref="U3" pin="6"/>
+      <node ref="U4" pin="11"/>
+      <node ref="TP7" pin="1"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="2" name="/FRAM_CS">
+      <node ref="U4" pin="10"/>
+      <node ref="U3" pin="1"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="3" name="/STM32_MISO">
+      <node ref="TP10" pin="1"/>
+      <node ref="U4" pin="12"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="U3" pin="4"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="J1" pin="25"/>
+      <node ref="C8" pin="2"/>
+      <node ref="J1" pin="34"/>
+      <node ref="C9" pin="2"/>
+      <node ref="J1" pin="30"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U1" pin="7"/>
+      <node ref="R28" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="J1" pin="20"/>
+      <node ref="J1" pin="9"/>
+      <node ref="U4" pin="16"/>
+      <node ref="J1" pin="14"/>
+      <node ref="J1" pin="6"/>
+      <node ref="J1" pin="39"/>
+      <node ref="D3" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U1" pin="1"/>
+      <node ref="BAT1" pin="Neg"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="R12" pin="2"/>
+      <node ref="D4" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="R9" pin="2"/>
+      <node ref="U4" pin="32"/>
+      <node ref="R23" pin="2"/>
+      <node ref="J5" pin="3"/>
+      <node ref="J5" pin="5"/>
+      <node ref="J5" pin="9"/>
+      <node ref="R14" pin="2"/>
+      <node ref="TP5" pin="1"/>
+      <node ref="TP4" pin="1"/>
+    </net>
+    <net code="5" name="Net-(D2-Pad2)">
+      <node ref="R15" pin="2"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="6" name="/STM32_MOSI">
+      <node ref="U3" pin="5"/>
+      <node ref="TP9" pin="1"/>
+      <node ref="U4" pin="13"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="7" name="/SENSOR_CS">
+      <node ref="R10" pin="2"/>
+      <node ref="U4" pin="18"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="8" name="/FRAM_~WP">
+      <node ref="U3" pin="3"/>
+      <node ref="U4" pin="21"/>
+    </net>
+    <net code="9" name="/FRAM_~HOLD">
+      <node ref="U4" pin="22"/>
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="10" name="Net-(R20-Pad2)">
+      <node ref="U4" pin="19"/>
+      <node ref="R20" pin="2"/>
+    </net>
+    <net code="11" name="Net-(R21-Pad2)">
+      <node ref="U4" pin="20"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="12" name="/REV_BIT2">
+      <node ref="R22" pin="2"/>
+      <node ref="U4" pin="26"/>
+      <node ref="R23" pin="1"/>
+    </net>
+    <net code="13" name="Net-(J5-Pad6)">
+      <node ref="J5" pin="6"/>
+    </net>
+    <net code="14" name="Net-(J5-Pad7)">
+      <node ref="J5" pin="7"/>
+    </net>
+    <net code="15" name="Net-(J5-Pad8)">
+      <node ref="J5" pin="8"/>
+    </net>
+    <net code="16" name="/REV_BIT0">
+      <node ref="R9" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="U4" pin="14"/>
+    </net>
+    <net code="17" name="/REV_BIT1">
+      <node ref="R13" pin="2"/>
+      <node ref="R14" pin="1"/>
+      <node ref="U4" pin="15"/>
+    </net>
+    <net code="18" name="/USART2RX">
+      <node ref="R5" pin="2"/>
+      <node ref="U4" pin="9"/>
+    </net>
+    <net code="19" name="Net-(J3-Pad4)">
+      <node ref="R5" pin="1"/>
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="20" name="Net-(J3-Pad5)">
+      <node ref="R6" pin="1"/>
+      <node ref="J3" pin="5"/>
+    </net>
+    <net code="21" name="/USART2TX">
+      <node ref="R6" pin="2"/>
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="22" name="/GPIO15_RXD">
+      <node ref="J1" pin="10"/>
+      <node ref="R20" pin="1"/>
+    </net>
+    <net code="23" name="/GPIO14_TXD">
+      <node ref="R21" pin="1"/>
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="24" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="25" name="Net-(U4-Pad3)">
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="26" name="Net-(J4-Pad2)">
+      <node ref="J4" pin="2"/>
+      <node ref="U4" pin="31"/>
+    </net>
+    <net code="27" name="+3V3">
+      <node ref="C9" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="U4" pin="17"/>
+      <node ref="TP8" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="D1" pin="K"/>
+      <node ref="R10" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U4" pin="1"/>
+      <node ref="R17" pin="1"/>
+      <node ref="R24" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="U4" pin="5"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="J5" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="R22" pin="1"/>
+      <node ref="R16" pin="1"/>
+      <node ref="U3" pin="8"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="28" name="Net-(U4-Pad6)">
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="29" name="Net-(J3-Pad3)">
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="30" name="Net-(J3-Pad6)">
+      <node ref="J3" pin="6"/>
+    </net>
+    <net code="31" name="Net-(U4-Pad2)">
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="32" name="/GPIO2_SDA">
+      <node ref="U4" pin="30"/>
+      <node ref="R16" pin="2"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="33" name="/GPIO3_SCL">
+      <node ref="U4" pin="29"/>
+      <node ref="R17" pin="2"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="34" name="/GPIO16">
+      <node ref="J1" pin="36"/>
+    </net>
+    <net code="35" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="36" name="Net-(U4-Pad28)">
+      <node ref="U4" pin="28"/>
+    </net>
+    <net code="37" name="/GPIO24">
+      <node ref="J1" pin="18"/>
+    </net>
+    <net code="38" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="39" name="+3.3VP">
+      <node ref="C3" pin="1"/>
+      <node ref="D1" pin="A"/>
+      <node ref="U4" pin="27"/>
+      <node ref="J1" pin="1"/>
+      <node ref="J1" pin="17"/>
+      <node ref="R28" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="40" name="Net-(R27-Pad2)">
+      <node ref="R27" pin="2"/>
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="41" name="/GPIO27_IRQ">
+      <node ref="J1" pin="13"/>
+      <node ref="R27" pin="1"/>
+    </net>
+    <net code="42" name="/SWDIO">
+      <node ref="U4" pin="23"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="43" name="/SWCLK">
+      <node ref="R19" pin="1"/>
+      <node ref="U4" pin="24"/>
+    </net>
+    <net code="44" name="/NRST">
+      <node ref="U4" pin="4"/>
+      <node ref="R24" pin="2"/>
+      <node ref="C10" pin="1"/>
+      <node ref="J5" pin="10"/>
+    </net>
+    <net code="45" name="Net-(J4-Pad3)">
+      <node ref="J4" pin="3"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="46" name="Net-(J4-Pad1)">
+      <node ref="R12" pin="1"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="47" name="Net-(J5-Pad2)">
+      <node ref="J5" pin="2"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="48" name="Net-(J5-Pad4)">
+      <node ref="J5" pin="4"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="49" name="Net-(D4-Pad2)">
+      <node ref="R26" pin="2"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="50" name="Net-(D3-Pad2)">
+      <node ref="R25" pin="2"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="51" name="/STM32_LED">
+      <node ref="U4" pin="25"/>
+      <node ref="R25" pin="1"/>
+    </net>
+    <net code="52" name="/GPIO17_LED">
+      <node ref="J1" pin="11"/>
+      <node ref="R26" pin="1"/>
+    </net>
+    <net code="53" name="Net-(BAT1-PadPos)">
+      <node ref="TP2" pin="1"/>
+      <node ref="BAT1" pin="Pos"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="54" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="55" name="/GPIO4_GPCLK0">
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="56" name="/GPIO22">
+      <node ref="J1" pin="15"/>
+    </net>
+    <net code="57" name="/GPIO10_MOSI">
+      <node ref="J1" pin="19"/>
+    </net>
+    <net code="58" name="/GPIO9_MISO">
+      <node ref="J1" pin="21"/>
+    </net>
+    <net code="59" name="/GPIO11_SCLK">
+      <node ref="J1" pin="23"/>
+    </net>
+    <net code="60" name="/GPIO25">
+      <node ref="J1" pin="22"/>
+    </net>
+    <net code="61" name="/GPIO8_CE0">
+      <node ref="J1" pin="24"/>
+    </net>
+    <net code="62" name="/GPIO7_CE1">
+      <node ref="J1" pin="26"/>
+    </net>
+    <net code="63" name="/GPIO1_ID_SC">
+      <node ref="R3" pin="2"/>
+      <node ref="U2" pin="6"/>
+      <node ref="J1" pin="28"/>
+      <node ref="TP6" pin="1"/>
+    </net>
+    <net code="64" name="/GPIO12_PWM0">
+      <node ref="J1" pin="32"/>
+    </net>
+    <net code="65" name="/GPIO20_PCM_DIN">
+      <node ref="J1" pin="38"/>
+    </net>
+    <net code="66" name="/GPIO21_PCM_DOUT">
+      <node ref="J1" pin="40"/>
+    </net>
+    <net code="67" name="/GPIO26">
+      <node ref="J1" pin="37"/>
+    </net>
+    <net code="68" name="/GPIO0_ID_SD">
+      <node ref="U2" pin="5"/>
+      <node ref="TP3" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="J1" pin="27"/>
+    </net>
+    <net code="69" name="/GPIO5">
+      <node ref="J1" pin="29"/>
+    </net>
+    <net code="70" name="/GPIO6">
+      <node ref="J1" pin="31"/>
+    </net>
+    <net code="71" name="/GPIO13_PWM1">
+      <node ref="J1" pin="33"/>
+    </net>
+    <net code="72" name="/GPIO19_PCM_FS">
+      <node ref="J1" pin="35"/>
+    </net>
+    <net code="73" name="/GPIO18_PCM_CLK">
+      <node ref="J1" pin="12"/>
+    </net>
+    <net code="74" name="/GPIO23">
+      <node ref="J1" pin="16"/>
+    </net>
+    <net code="75" name="Net-(J2-Pad3)">
+      <node ref="U2" pin="7"/>
+      <node ref="R2" pin="2"/>
+      <node ref="J2" pin="3"/>
+    </net>
+  </nets>
+</export>

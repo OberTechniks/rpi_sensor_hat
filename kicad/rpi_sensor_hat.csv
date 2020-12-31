@@ -1,0 +1,21 @@
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Category,DK_Datasheet_Link,DK_Detail_Page,Description,Digi-Key_PN,Family,MPN,Manufacturer,Mating Part,PLACE,Status
+1,1,BAT1,BS-7,dk_Battery-Holders-Clips-Contacts:BS-7,rpi_sensor_hat:Battery_Holder_Coin_2032_BS-7,http://www.memoryprotectiondevices.com/datasheets/BS-7-datasheet.pdf,Battery Products,http://www.memoryprotectiondevices.com/datasheets/BS-7-datasheet.pdf,/product-detail/en/mpd-memory-protection-devices/BS-7/BS-7-ND/389447,BATTERY HOLDER COIN 20MM PC PIN,BS-7-ND,"Battery Holders, Clips, Contacts",BS-7,MPD (Memory Protection Devices),,STD,Active
+2,1,C1,10uF,Device:C,Capacitor_SMD:C_0805_2012Metric,~,,,,,,,TMK212BBJ106KG-T,,,STD,
+3,9,"C2, C3, C4, C5, C6, C7, C8, C9, C10",0.1uF,Device:C,Capacitor_SMD:C_0805_2012Metric,~,,,,,,,08055C104KAT2A,,,STD,
+4,1,D1,MBR0520LT1G,dk_Diodes-Rectifiers-Single:MBR0520LT1G,rpi_sensor_hat:SOD-123,http://www.onsemi.com/pub/Collateral/MBR0520LT1-D.PDF,Discrete Semiconductor Products,http://www.onsemi.com/pub/Collateral/MBR0520LT1-D.PDF,/product-detail/en/on-semiconductor/MBR0520LT1G/MBR0520LT1GOSCT-ND/917965,DIODE SCHOTTKY 20V 500MA SOD123,MBR0520LT1GOSCT-ND,Diodes - Rectifiers - Single,MBR0520LT1G,ON Semiconductor,,STD,Active
+5,3,"D2, D3, D4",LG_R971-KN-1,rpi_sensor_hat:LG_R971-KN-1,LED_SMD:LED_0805_2012Metric,https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf,Optoelectronics,https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf,/product-detail/en/osram-opto-semiconductors-inc/LG-R971-KN-1/475-1410-1-ND/1802598,LED GREEN DIFFUSED 0805 SMD,475-1410-1-ND,LED Indication - Discrete,LG R971-KN-1,OSRAM Opto Semiconductors Inc.,,STD,Active
+6,4,"H1, H2, H3, H4",MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_2.7mm_M2.5,~,,,,,,,,,,MECH,
+7,1,J1,SSW-120-03-G-D,rpi_sensor_hat:SSW-120-03-G-D,rpi_sensor_hat:ssw-120-03-g-d,~,,,,,,,,,,STD,
+8,2,"J2, J4",Conn_01x03,Connector_Generic:Conn_01x03,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,~,,,,,,,TSW-103-07-F-S,,SNT-100-BK-T,STD,
+9,1,J3,Conn_01x06,Connector_Generic:Conn_01x06,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical,~,,,,,,,61300611121,,,STD,
+10,1,J5,Conn_02x05_Odd_Even,Connector_Generic:Conn_02x05_Odd_Even,Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD,~,,,,,,,FTSH-105-01-L-DV-K,,,STD,
+11,1,Q1,BSS84,Transistor_FET:BSS84,Package_TO_SOT_SMD:SOT-23,http://assets.nexperia.com/documents/data-sheet/BSS84.pdf,,,,,,,BSS84-7-F,,,STD,
+12,1,R1,100K,Device:R,Resistor_SMD:R_0805_2012Metric,~,,,,,,,RC0805JR-07100KL,,,STD,
+13,1,R2,1K,Device:R,Resistor_SMD:R_0805_2012Metric,~,,,,,,,RC0805FR-071KL,,,STD,
+14,4,"R3, R4, R16, R17",3.9K,Device:R,Resistor_SMD:R_0805_2012Metric,~,,,,,,,RC0805FR-073K9L,,,STD,
+15,10,"R5, R6, R15, R18, R19, R20, R21, R25, R26, R27",100R,Device:R,Resistor_SMD:R_0805_2012Metric,~,,,,,,,RC0805FR-07100RL,,,STD,
+16,12,"R7, R8, R9, R10, R11, R12, R13, R14, R22, R23, R24, R28",10K,Device:R,Resistor_SMD:R_0805_2012Metric,~,,,,,,,RC0805JR-0710KL,,,STD,
+17,1,U1,BME280,dk_Humidity-Moisture-Sensors:BME280,rpi_sensor_hat:Pressure_Sensor_LGA-8_2.5x2.5mm_BME280,https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280-DS002.pdf,"Sensors, Transducers",https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280-DS002.pdf,/product-detail/en/bosch-sensortec/BME280/828-1063-1-ND/6136314,SENSOR PRESSURE HUMIDITY TEMP,828-1063-1-ND,"Humidity, Moisture Sensors",BME280,Bosch Sensortec,,STD,Active
+18,1,U2,CAT24C128,Memory_EEPROM:CAT24C128,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,https://www.onsemi.com/pub/Collateral/CAT24C128-D.PDF,,,,,,,CAT24C128WI-GT3,,,STD,
+19,1,U3,FM25V10-G,rpi_sensor_hat:FM25V10-G,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,https://www.cypress.com/file/41691/download,,,,,,,FM25V10-G,,,STD,
+20,1,U4,STM32L062K8Tx,rpi_sensor_hat:STM32L062K8Tx,Package_QFP:LQFP-32_7x7mm_P0.8mm,http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00108218.pdf,,,,,,,STM32L062K8T6,,,STD,

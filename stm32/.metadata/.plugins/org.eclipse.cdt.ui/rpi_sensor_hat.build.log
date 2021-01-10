@@ -1,0 +1,10 @@
+17:28:30 **** Incremental Build of configuration Debug for project rpi_sensor_hat ****
+make -j4 all 
+arm-none-eabi-size   rpi_sensor_hat.elf 
+   text	   data	    bss	    dec	    hex	filename
+  11464	     20	   1996	  13480	   34a8	rpi_sensor_hat.elf
+Finished building: default.size.stdout
+ 
+
+17:28:30 Build Finished. 0 errors, 0 warnings. (took 282ms)
+

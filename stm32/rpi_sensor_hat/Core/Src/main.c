@@ -22,6 +22,9 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include <stdio.h>
+#include <errno.h>
+#include <sys/unistd.h>
 
 /* USER CODE END Includes */
 
@@ -109,8 +112,10 @@ int main(void)
   {
     /* USER CODE END WHILE */
 	  HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, GPIO_PIN_RESET);
+	  printf("LED is off\n");
 	  HAL_Delay(1000);
 	  HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, GPIO_PIN_SET);
+	  printf("LED is on\n");
 	  HAL_Delay(1000);
 
     /* USER CODE BEGIN 3 */
@@ -377,6 +382,17 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+int _write(int file, char *data, int len)
+{
+	if((file != STDOUT_FILENO) && (file != STDERR_FILENO))
+	{
+		errno = EBADF;
+		return -1;
+	}
+	HAL_StatusTypeDef status = HAL_UART_Transmit(&huart2, (uint8_t *)data, len, 1000);
+	return (status == HAL_OK ? len : 0);
+}
+
 
 /* USER CODE END 4 */
 

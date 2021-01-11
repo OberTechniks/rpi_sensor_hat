@@ -19,3 +19,25 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY org.eclipse.cdt.core 1 0 2021-01-10 16:56:04.533
 !MESSAGE Indexed 'rpi_sensor_hat' (22 sources, 81 headers) in 3.62 sec: 4,459 declarations; 24,346 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0069%)
+!SESSION 2021-01-10 18:29:46.612 -----------------------------------------------
+eclipse.buildId=Version 1.5.1
+java.version=1.8.0_202
+java.vendor=AdoptOpenJdk
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  C:\Users\eoberholzer\Documents\Projects\rpi_sensor_hat\stm32\rpi_sensor_hat\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\eoberholzer\Documents\Projects\rpi_sensor_hat\stm32\rpi_sensor_hat\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2021-01-10 18:29:57.999
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2021-01-10 18:29:58.051
+!MESSAGE Log4j initialized with config file C:\Users\eoberholzer\Documents\Projects\rpi_sensor_hat\stm32\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2021-01-10 18:30:12.623
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2021-01-10 18:30:13.187
+!MESSAGE com.st.stm32cube.ide.mcu.ide/META-INF/version/build_ref file not found, build reference will not be reported into properties
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-01-10 18:30:15.338
+!MESSAGE Indexed 'rpi_sensor_hat' (26 sources, 85 headers) in 2.58 sec: 5,762 declarations; 36,267 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0048%)

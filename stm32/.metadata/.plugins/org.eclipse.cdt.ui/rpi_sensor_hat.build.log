@@ -1,10 +1,21 @@
-17:28:30 **** Incremental Build of configuration Debug for project rpi_sensor_hat ****
+19:31:23 **** Incremental Build of configuration Debug for project rpi_sensor_hat ****
 make -j4 all 
+arm-none-eabi-gcc "../Core/Src/fram.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L062xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/fram.d" -MT"Core/Src/fram.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/fram.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L062xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "rpi_sensor_hat.elf" @"objects.list"   -mcpu=cortex-m0plus -T"C:\Users\eoberholzer\Documents\Projects\rpi_sensor_hat\stm32\rpi_sensor_hat\STM32L062K8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="rpi_sensor_hat.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: rpi_sensor_hat.elf
+ 
+arm-none-eabi-objdump -h -S  rpi_sensor_hat.elf  > "rpi_sensor_hat.list"
+arm-none-eabi-objcopy  -O binary  rpi_sensor_hat.elf  "rpi_sensor_hat.bin"
 arm-none-eabi-size   rpi_sensor_hat.elf 
    text	   data	    bss	    dec	    hex	filename
-  11464	     20	   1996	  13480	   34a8	rpi_sensor_hat.elf
+  14692	    120	   2016	  16828	   41bc	rpi_sensor_hat.elf
 Finished building: default.size.stdout
  
+Finished building: rpi_sensor_hat.bin
+ 
+Finished building: rpi_sensor_hat.list
+ 
 
-17:28:30 Build Finished. 0 errors, 0 warnings. (took 282ms)
+19:31:24 Build Finished. 0 errors, 0 warnings. (took 1s.249ms)
 
